@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,CAAC;EACvB,MAAM,EAAE,KAAK;CACd",
+    "sources": [
+        "TokenomicsPage.scss"
+    ],
+    "names": [],
+    "file": "TokenomicsPage.css"
+}

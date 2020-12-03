@@ -1,0 +1,92 @@
+.gridContainer {
+  height: 80vmin;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: 'box1 box2 box3 box3 box3 box3 box3' 'box1 box2 .    .     .     .    .' 'box1 box2 box4 box5 box6 box7 box8' 'box1 box2 .    .     .     .    .' 'box1 box2 box9 box9 box9 box9 box9';
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+}
+
+.gridContainer .box1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 1;
+  grid-area: box1;
+  background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  border-radius: 17px;
+}
+
+.gridContainer .box2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  -ms-grid-column: 2;
+  grid-area: box2;
+}
+
+.gridContainer .box3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 5;
+  grid-area: box3;
+  background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  border-radius: 17px;
+}
+
+.gridContainer .box4 {
+  border: 2px solid #1e212b;
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: box4;
+  background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  border-radius: 17px;
+}
+
+.gridContainer .box5 {
+  border: 2px solid #1e212b;
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+  grid-area: box5;
+  background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  border-radius: 17px;
+}
+
+.gridContainer .box6 {
+  border: 2px solid #1e212b;
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+  grid-area: box6;
+  background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  border-radius: 17px;
+}
+
+.gridContainer .box7 {
+  border: 2px solid #1e212b;
+  -ms-grid-row: 3;
+  -ms-grid-column: 6;
+  grid-area: box7;
+  background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  border-radius: 17px;
+}
+
+.gridContainer .box8 {
+  border: 2px solid #1e212b;
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+  grid-area: box8;
+  background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  border-radius: 17px;
+}
+
+.gridContainer .box9 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 5;
+  grid-area: box9;
+  background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  border-radius: 17px;
+}
+/*# sourceMappingURL=ProductsDaigram.css.map */
