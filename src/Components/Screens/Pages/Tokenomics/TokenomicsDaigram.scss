@@ -1,0 +1,58 @@
+.tokenomicsGridContainer {
+  height: 80vmin;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 1fr 2fr 1.5fr 0.5fr 1fr;
+  grid-template-areas:
+    'box1  .   box5   . box8'
+    'box2  .   box6   . box9'
+    'box3  .   box6   . box9'
+    'box4  .   box7   . box10';
+  row-gap: 1rem;
+
+  .box1 {
+    grid-area: box1;
+    background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+    border-radius: 17px;
+    border: 2px solid #1e212b;
+  }
+  .box2 {
+    background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+    grid-area: box2;
+    border-radius: 17px;
+    border: 2px solid #1e212b;
+  }
+  .box3 {
+    background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+    grid-area: box3;
+    border-radius: 17px;
+    border: 2px solid #1e212b;
+  }
+  .box4 {
+    grid-area: box4;
+    background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+    border-radius: 17px;
+    border: 2px solid #1e212b;
+  }
+  .box5 {
+    grid-area: box5;
+  }
+  .box6 {
+    grid-area: box6;
+    background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  }
+  .box7 {
+    grid-area: box7;
+  }
+  .box8 {
+    grid-area: box8;
+    background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  }
+  .box9 {
+    grid-area: box9;
+  }
+  .box10 {
+    grid-area: box10;
+    background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
+  }
+}
