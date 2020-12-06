@@ -29,17 +29,4 @@
   text-align: center;
   color: #b1b2bc;
 }
-
-.contactPageContainer .socialMedia {
-  margin-top: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
 /*# sourceMappingURL=ContactPage.css.map */

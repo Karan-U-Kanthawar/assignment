@@ -23,28 +23,44 @@ export const Header = () => {
             <h2 className='heading'>Cryption Network.</h2>
           </div>
           <div className='navContainer'>
-            <div className='navLinks'>Products</div>
-            <div className='navLinks'>Tokenomics</div>
-            <div className='navLinks'>Roadmap</div>
-            <div className='navLinks'>Features</div>
-            <div className='navLinks'>Teams</div>
+            <div className='navLinks'>
+              <a href='#products'>Products</a>
+            </div>
+            <div className='navLinks'>
+              <a href='#tokenomics'>Tokenomics</a>
+            </div>
+            <div className='navLinks'>
+              <a href='#roadmap'>Roadmap</a>
+            </div>
+            <div className='navLinks'>
+              <a href='#features'>Features</a>
+            </div>
+            <div className='navLinks'>
+              <a href='#team'>Teams</a>
+            </div>
           </div>
         </Container>
         <div className='HomeScreenContainer'>
           <HeroPage />
-          <ProductsPage id='products' className='products' />
-          <div className='TokenomicsOuterContainer'>
+          <div id='products'>
+            <ProductsPage className='products' />
+          </div>
+          <div id='tokenomics' className='TokenomicsOuterContainer'>
             <TokenomicsPage />
           </div>
-          <Container>
+          <Container id='roadmap'>
             <RoadmapPage />
           </Container>
-          <div className='colorContainer'>
+          <div id='features' className='colorContainer'>
             <FeaturesPage />
           </div>
-          <TeamPage />
+          <div id='team'>
+            <TeamPage />
+          </div>
           <div className='colorContainer2'>
-            <ContactPage />
+            <div id='contact'>
+              <ContactPage />
+            </div>
           </div>
         </div>
         {/* <HomeScreen /> */}

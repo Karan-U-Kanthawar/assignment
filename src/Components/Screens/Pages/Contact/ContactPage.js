@@ -26,7 +26,7 @@ export const ContactPage = () => {
             pot stag porking bardnwe art gaon.
           </div>
         </div>
-        <div className='socialMedia'>
+        <div>
           <SocialMedia />
         </div>
       </Container>
