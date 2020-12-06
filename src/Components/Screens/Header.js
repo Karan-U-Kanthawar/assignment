@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import './Header.css';
-import { HomeScreen } from './HomeScreen';
 // //////////////////////////////////////////////////////////
 
 import { HeroPage } from '../Screens/Pages/Hero/HeroPage.js';

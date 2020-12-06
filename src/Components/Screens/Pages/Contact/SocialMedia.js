@@ -7,7 +7,7 @@ export const SocialMedia = () => {
     <Container>
       <div className='wrapper'>
         <div className='wrapper__links'>
-          <a className='social-link social-link--dribbble' id='dribbble'>
+          <span className='social-link social-link--dribbble' id='dribbble'>
             <svg
               className='social-svg'
               viewBox='0 0 600 600'
@@ -38,8 +38,8 @@ export const SocialMedia = () => {
                 />
               </g>
             </svg>
-          </a>
-          <a className='social-link social-link--github' id='github'>
+          </span>
+          <span className='social-link social-link--github' id='github'>
             <svg
               className='social-svg'
               viewBox='0 0 600 600'
@@ -70,8 +70,8 @@ export const SocialMedia = () => {
                 />
               </g>
             </svg>
-          </a>
-          <a className='social-link social-link--linkedin' id='linkedin'>
+          </span>
+          <span className='social-link social-link--linkedin' id='linkedin'>
             <svg
               className='social-svg'
               viewBox='0 0 600 600'
@@ -102,8 +102,8 @@ export const SocialMedia = () => {
                 />
               </g>
             </svg>
-          </a>
-          <a className='social-link social-link--instagram' id='instagram'>
+          </span>
+          <span className='social-link social-link--instagram' id='instagram'>
             <svg
               className='social-svg'
               viewBox='0 0 600 600'
@@ -140,7 +140,7 @@ export const SocialMedia = () => {
                 />
               </g>
             </svg>
-          </a>
+          </span>
         </div>
       </div>
     </Container>
