@@ -86,4 +86,16 @@
   grid-area: box10;
   background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
 }
+
+.tokenomicsImageContainer {
+  position: relative;
+}
+
+.tokenomicsImageContainer .flameContainer {
+  top: 50px;
+  right: 220px;
+  position: absolute;
+  max-width: 50px;
+  max-height: 50px;
+}
 /*# sourceMappingURL=TokenomicsDaigram.css.map */

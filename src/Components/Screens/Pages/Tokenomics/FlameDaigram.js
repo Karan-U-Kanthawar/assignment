@@ -3,7 +3,7 @@ import './FlameDaigram.css';
 
 export const FlameDaigram = () => {
   return (
-    <>
+    <div className='fireSubContainer'>
       <div className='fire'>
         <div className='flames'>
           <div className='flame'></div>
@@ -13,6 +13,6 @@ export const FlameDaigram = () => {
         </div>
         <div className='logs'></div>
       </div>
-    </>
+    </div>
   );
 };
