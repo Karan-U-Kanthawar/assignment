@@ -84,7 +84,7 @@
 }
 
 .social-link .social-svg:hover .social-group__outline, .social-link .social-svg:active .social-group__outline, .social-link .social-svg:focus .social-group__outline {
-  stroke: currentColor;
+  stroke: #b1b2bc;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: all 0.45s;

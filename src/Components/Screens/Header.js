@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './Header.css';
 import { HomeScreen } from './HomeScreen';
 // //////////////////////////////////////////////////////////
@@ -16,55 +15,53 @@ import { ContactPage } from './Pages/Contact/ContactPage.js';
 
 export const Header = () => {
   return (
-    <Router>
-      <div className='headerContainer'>
-        <Container className='headerSubContainer'>
-          <div>
-            <h2 className='heading'>Cryption Network.</h2>
+    <div className='headerContainer'>
+      <Container className='headerSubContainer'>
+        <div>
+          <h2 className='heading'>Cryption Network.</h2>
+        </div>
+        <div className='navContainer'>
+          <div className='navLinks'>
+            <a href='#products'>Products</a>
           </div>
-          <div className='navContainer'>
-            <div className='navLinks'>
-              <a href='#products'>Products</a>
-            </div>
-            <div className='navLinks'>
-              <a href='#tokenomics'>Tokenomics</a>
-            </div>
-            <div className='navLinks'>
-              <a href='#roadmap'>Roadmap</a>
-            </div>
-            <div className='navLinks'>
-              <a href='#features'>Features</a>
-            </div>
-            <div className='navLinks'>
-              <a href='#team'>Teams</a>
-            </div>
+          <div className='navLinks'>
+            <a href='#tokenomics'>Tokenomics</a>
           </div>
-        </Container>
-        <div className='HomeScreenContainer'>
-          <HeroPage />
-          <div id='products'>
-            <ProductsPage className='products' />
+          <div className='navLinks'>
+            <a href='#roadmap'>Roadmap</a>
           </div>
-          <div id='tokenomics' className='TokenomicsOuterContainer'>
-            <TokenomicsPage />
+          <div className='navLinks'>
+            <a href='#features'>Features</a>
           </div>
-          <Container id='roadmap'>
-            <RoadmapPage />
-          </Container>
-          <div id='features' className='colorContainer'>
-            <FeaturesPage />
-          </div>
-          <div id='team'>
-            <TeamPage />
-          </div>
-          <div className='colorContainer2'>
-            <div id='contact'>
-              <ContactPage />
-            </div>
+          <div className='navLinks'>
+            <a href='#team'>Teams</a>
           </div>
         </div>
-        {/* <HomeScreen /> */}
+      </Container>
+      <div className='HomeScreenContainer'>
+        <HeroPage />
+        <div id='products'>
+          <ProductsPage className='products' />
+        </div>
+        <div id='tokenomics' className='TokenomicsOuterContainer'>
+          <TokenomicsPage />
+        </div>
+        <Container id='roadmap'>
+          <RoadmapPage />
+        </Container>
+        <div id='features' className='colorContainer'>
+          <FeaturesPage />
+        </div>
+        <div id='team'>
+          <TeamPage />
+        </div>
+        <div className='colorContainer2'>
+          <div id='contact'>
+            <ContactPage />
+          </div>
+        </div>
       </div>
-    </Router>
+      {/* <HomeScreen /> */}
+    </div>
   );
 };

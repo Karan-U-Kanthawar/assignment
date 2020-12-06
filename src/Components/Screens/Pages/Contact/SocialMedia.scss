@@ -1,5 +1,5 @@
 $color-primary: #1a1b23;
-$color-primary-light: #b4f5ff;
+$color-primary-light: #b1b2bc;
 $color-primary-dark: #1a1b23;
 
 $color-white: #b1b2bc;
@@ -57,7 +57,6 @@ $color-black: #191308;
       }
 
       &__inner-circle {
-        // fill: transparent;
         fill: $color-white;
         transition: all 0.2s;
       }
@@ -81,14 +80,10 @@ $color-black: #191308;
         &__inner-circle {
           fill: $color-black;
           transition: all 0.45s;
-
-          // &--instagram {
-          //   // fill: url(#simpleInsta) !important;
-          // }
         }
 
         &__outline {
-          stroke: currentColor;
+          stroke: $color-white;
           transform: scale(1.1);
           transition: all 0.45s;
         }
