@@ -1,13 +1,13 @@
 import React from 'react';
-import { Footer } from './Components/Footer.js';
-import { Header } from './Components/Header.js';
 import { HomeScreen } from './Components/Screens/HomeScreen.js';
+import { Header } from './Components/Screens/Header.js';
+import { Footer } from './Components/Screens/Footer.js';
 
 const App = () => {
   return (
     <>
       <Header />
-      <HomeScreen />
+      {/* <HomeScreen /> */}
       <Footer />
     </>
   );

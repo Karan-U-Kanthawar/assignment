@@ -1,0 +1,23 @@
+.footerContainer {
+  background-color: #1a1b23;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  .footerSubContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .heading {
+      font-size: medium;
+      margin-top: 1rem;
+      padding: 1rem;
+    }
+    .navContainer {
+      padding: 1rem;
+      font-size: small;
+      display: flex;
+      .navLinks {
+        margin: 1.5rem 1rem 0 1rem;
+      }
+    }
+  }
+}

@@ -5,16 +5,16 @@ import './RoadmapPage.css';
 
 export const RoadmapPage = () => {
   return (
-    <Container className='roadmapPageContainer'>
+    <div className='roadmapPageContainer'>
       <Row>
         <Col lg={4}>
-          <h2>Road Map</h2>
-          <p>
+          <h2 className='roadmapHeading'>Road Map</h2>
+          <p className='content'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             nec erat vel lectus bibendum vehicula quis vitae enim. Integer
             tincidunt.ore
           </p>
-          <p>
+          <p className='content'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             nec erat vel lectus bibendum vehicula quis vitae enim. Integer
             tincidunt.ore
@@ -24,6 +24,6 @@ export const RoadmapPage = () => {
           <RoadmapDaigram />
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 };

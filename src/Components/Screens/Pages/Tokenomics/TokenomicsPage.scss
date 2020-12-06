@@ -1,3 +1,16 @@
 .tokenomicsPageContainer {
   height: 100vh;
+  background-color: #1a1b23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  margin-top: 2rem;
+  color: white;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+.content {
+  color: #a7a7a7;
+  font-family: 'Montserrat', sans-serif;
 }

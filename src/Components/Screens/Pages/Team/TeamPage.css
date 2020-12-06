@@ -1,0 +1,53 @@
+.teamPageContainer {
+  height: 100vh;
+}
+
+.teamPageContainer .teamHeading {
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: white;
+  margin-top: 7rem;
+  text-align: center;
+  text-align: center;
+}
+
+.teamPageContainer .content {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 1rem;
+  color: #a7a7a7;
+}
+
+.teamPageContainer .imageContainer {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.teamPageContainer .imageContainer .allImg .imgHeading {
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+}
+
+.teamPageContainer .imageContainer .allImg .imgProf {
+  text-align: center;
+  font-size: small;
+  font-family: 'Montserrat', sans-serif;
+  color: #a7a7a7;
+}
+
+.teamPageContainer .imageContainer .allImg .image {
+  -webkit-box-shadow: 3px 3px 10px 3px #15161d;
+          box-shadow: 3px 3px 10px 3px #15161d;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=TeamPage.css.map */

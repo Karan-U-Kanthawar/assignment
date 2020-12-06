@@ -8,20 +8,20 @@ export const ProductsPage = () => {
     <Container className='productsPageContainer'>
       <Row>
         <Col lg={4}>
-          <h2>Products</h2>
-          <p>
+          <h2 className='heading'>Products</h2>
+          <p className='content'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             nec erat vel lectus bibendum vehicula quis vitae enim. Integer
             tincidunt.
           </p>
-          <p>
+          <p className='content'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             nec erat vel lectus bibendum vehicula quis vitae enim. Integer
             tincidunt.
           </p>
         </Col>
         <Col lg={8}>
-          <ProductsDaigram />
+          <img src={require('./ProductImage.png')} alt='product' />
         </Col>
       </Row>
     </Container>

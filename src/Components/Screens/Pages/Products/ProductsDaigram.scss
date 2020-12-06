@@ -24,31 +24,37 @@
     border-radius: 17px;
   }
   .box4 {
-    border: 2px solid #1e212b;
+    border: 1px solid white;
+    background-color: #000063;
     grid-area: box4;
-    background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
     border-radius: 17px;
+    .box4Container {
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   .box5 {
-    border: 2px solid #1e212b;
+    border: 1px solid white;
     grid-area: box5;
     background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
     border-radius: 17px;
   }
   .box6 {
-    border: 2px solid #1e212b;
+    border: 1px solid white;
     grid-area: box6;
     background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
     border-radius: 17px;
   }
   .box7 {
-    border: 2px solid #1e212b;
+    border: 1px solid white;
     grid-area: box7;
     background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
     border-radius: 17px;
   }
   .box8 {
-    border: 2px solid #1e212b;
+    border: 1px solid white;
     grid-area: box8;
     background: linear-gradient(177.49deg, #2082e9 2.1%, #9900ff 80.43%);
     border-radius: 17px;

@@ -1,0 +1,46 @@
+.teamPageContainer {
+  height: 100vh;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
+  .teamHeading {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+    margin-top: 7rem;
+    text-align: center;
+    text-align: center;
+  }
+  .content {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 1rem;
+    color: #a7a7a7;
+  }
+  .imageContainer {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .allImg {
+      .imgHeading {
+        font-family: 'Bai Jamjuree', sans-serif;
+        text-align: center;
+        margin-top: 1rem;
+        color: white;
+      }
+      .imgProf {
+        text-align: center;
+        font-size: small;
+        font-family: 'Montserrat', sans-serif;
+        color: #a7a7a7;
+      }
+      .image {
+        box-shadow: 3px 3px 10px 3px #15161d;
+        border-radius: 50%;
+      }
+    }
+  }
+}

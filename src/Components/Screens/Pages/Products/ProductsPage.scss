@@ -1,3 +1,16 @@
 .productsPageContainer {
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: white;
+}
+
+.content {
+  margin-top: 2rem;
+  color: #a7a7a7;
+  font-family: 'Montserrat', sans-serif;
 }

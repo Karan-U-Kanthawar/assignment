@@ -8,21 +8,26 @@ export const TokenomicsPage = () => {
     <Container className='tokenomicsPageContainer'>
       <Row>
         <Col lg={8}>
-          <TokenomicsDaigram />
+          <img
+            src={require('./TokenomicsImage2.png')}
+            alt='tokenomics'
+            width='750px'
+            height='550px'
+          />
         </Col>
         <Col lg={4}>
           <Row>
-            <h2>Tokenomics</h2>
+            <h2 className='heading'>Tokenomics</h2>
           </Row>
           <Row>
-            <p>
+            <p className='content'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
               nec erat vel lectus bibendum vehicula quis vitae enim. Integer
               tincidunt.
             </p>
           </Row>
           <Row>
-            <p>
+            <p className='content'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
               nec erat vel lectus bibendum vehicula quis vitae enim. Integer
               tincidunt.

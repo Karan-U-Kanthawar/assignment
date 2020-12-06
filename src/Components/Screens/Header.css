@@ -1,0 +1,29 @@
+.headerContainer {
+  background-color: #1a1b23;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.headerContainer .headerSubContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headerContainer .headerSubContainer .heading {
+  margin-top: 1rem;
+}
+
+.headerContainer .headerSubContainer .navContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerContainer .headerSubContainer .navContainer .navLinks {
+  margin: 1.5rem 1rem 0 1rem;
+}
+/*# sourceMappingURL=Header.css.map */

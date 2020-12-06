@@ -1,0 +1,19 @@
+.headerContainer {
+  background-color: #1a1b23;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  .headerSubContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .heading {
+      margin-top: 1rem;
+    }
+    .navContainer {
+      display: flex;
+      .navLinks {
+        margin: 1.5rem 1rem 0 1rem;
+      }
+    }
+  }
+}
