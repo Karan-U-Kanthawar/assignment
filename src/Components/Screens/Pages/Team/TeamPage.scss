@@ -1,5 +1,5 @@
 .teamPageContainer {
-  height: 100vh;
+  min-height: 80vh;
 
   .teamHeading {
     font-family: 'Bai Jamjuree', sans-serif;
@@ -15,6 +15,9 @@
     color: #a7a7a7;
   }
   .imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+
     height: 70%;
     display: flex;
     justify-content: center;

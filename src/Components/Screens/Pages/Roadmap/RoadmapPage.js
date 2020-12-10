@@ -20,7 +20,7 @@ export const RoadmapPage = () => {
             tincidunt.ore
           </p>
         </Col>
-        <Col lg={8}>
+        <Col lg={8} clasName='RoadmapImageContainer'>
           <RoadmapDaigram />
         </Col>
       </Row>

@@ -21,7 +21,13 @@ export const ProductsPage = () => {
           </p>
         </Col>
         <Col lg={8}>
-          <img src={require('./ProductImage.png')} alt='product' />
+          <img
+            className='ProductImageContainer'
+            src={require('./ProductImage.png')}
+            alt='product'
+            width='650px'
+            height='400px'
+          />
         </Col>
       </Row>
     </Container>

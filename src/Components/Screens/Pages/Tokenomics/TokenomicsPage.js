@@ -10,6 +10,7 @@ export const TokenomicsPage = () => {
       <Row>
         <Col lg={8} className='tokenomicsImageContainer'>
           <img
+            className='TokenomicsImageContainer '
             src={require('./TokenomicsImage2.png')}
             alt='tokenomics'
             width='700px'

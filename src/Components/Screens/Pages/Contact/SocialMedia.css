@@ -9,6 +9,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   height: 100px;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#1a1b23), to(#1a1b23));
@@ -27,7 +29,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 70%;
+  width: 100%;
 }
 
 .social-link--linkedin {

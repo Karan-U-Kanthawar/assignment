@@ -1,5 +1,5 @@
 .tokenomicsPageContainer {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #1a1b23;
   display: flex;
   justify-content: center;
@@ -13,4 +13,7 @@
 .content {
   color: #a7a7a7;
   font-family: 'Montserrat', sans-serif;
+}
+.TokenomicsImageContainer {
+  max-width: 100%;
 }

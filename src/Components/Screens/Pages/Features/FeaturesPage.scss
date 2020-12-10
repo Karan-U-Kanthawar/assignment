@@ -1,5 +1,5 @@
 .featuresPageContainer {
-  height: 130vh;
+  // height: 80vh;
   background-color: #1a1b23;
   .featuresHeading {
     padding-top: 5rem;
@@ -21,36 +21,40 @@
 
 .featuresSubContainer {
   display: 70vh;
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas:
-    'sb1 sb2'
-    'sb3 sb4';
-  row-gap: 3rem;
-  column-gap: 3rem;
+
+  @media (max-width: 750px) {
+    flex-wrap: wrap;
+  }
+  // grid-template-rows: repeat(2, 1fr);
+  // grid-template-columns: repeat(2, 1fr);
+  // grid-template-areas:
+  //   'sb1 sb2'
+  //   'sb3 sb4';
+  // row-gap: 3rem;
+  // column-gap: 3rem;
 
   .subContainer {
     background-color: #1f202b;
     text-align: center;
-    height: 200px;
+    // height: 300px;
     border-radius: 15px;
     box-shadow: 3px 3px 10px 3px #15161d;
   }
-  .sb1 {
-    grid-area: sb1;
-  }
-  .sb2 {
-    grid-area: sb2;
-  }
-  .sb3 {
-    grid-area: sb3;
-  }
-  .sb4 {
-    grid-area: sb4;
-  }
+  // .sb1 {
+  //   // grid-area: sb1;
+  // }
+  // .sb2 {
+  //   // grid-area: sb2;
+  // }
+  // .sb3 {
+  //   // grid-area: sb3;
+  // }
+  // .sb4 {
+  //   // grid-area: sb4;
+  // }
 }
 .sbHeading {
   padding-top: 2rem;

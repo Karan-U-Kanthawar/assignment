@@ -1,5 +1,5 @@
 .gridContainer {
-  height: 80vmin;
+  min-height: 80vh;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[7];

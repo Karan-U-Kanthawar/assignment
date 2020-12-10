@@ -1,5 +1,5 @@
 .teamPageContainer {
-  height: 100vh;
+  min-height: 80vh;
 }
 
 .teamPageContainer .teamHeading {
@@ -18,9 +18,12 @@
 }
 
 .teamPageContainer .imageContainer {
-  height: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 70%;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;

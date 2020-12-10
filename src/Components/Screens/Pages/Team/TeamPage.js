@@ -7,9 +7,7 @@ export const TeamPage = () => {
     <>
       <Container className='teamPageContainer'>
         <div>
-          <div>
-            <h2 className='teamHeading'>Team</h2>
-          </div>
+          <h2 className='teamHeading'>Team</h2>
         </div>
         <div>
           <div className='content'>

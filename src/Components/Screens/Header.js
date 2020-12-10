@@ -11,6 +11,7 @@ import { RoadmapPage } from './Pages/Roadmap/RoadmapPage.js';
 import { FeaturesPage } from './Pages/Features/FeaturesPage.js';
 import { TeamPage } from './Pages/Team/TeamPage.js';
 import { ContactPage } from './Pages/Contact/ContactPage.js';
+import { Footer } from './Footer.js';
 
 export const Header = () => {
   return (
@@ -19,7 +20,7 @@ export const Header = () => {
         <div>
           <h2 className='heading'>Cryption Network.</h2>
         </div>
-        <div className='navContainer'>
+        {/* <div className='navContainer'>
           <div className='navLinks'>
             <a href='#products'>Products</a>
           </div>
@@ -35,16 +36,19 @@ export const Header = () => {
           <div className='navLinks'>
             <a href='#team'>Teams</a>
           </div>
-        </div>
+        </div> */}
       </Container>
       <div className='HomeScreenContainer'>
         <HeroPage />
         <div id='products'>
           <ProductsPage className='products' />
         </div>
-        <div id='tokenomics' className='TokenomicsOuterContainer'>
+        <br />
+        <br />
+        <br />
+        <Container id='tokenomics' className='TokenomicsOuterContainer'>
           <TokenomicsPage />
-        </div>
+        </Container>
         <Container id='roadmap'>
           <RoadmapPage />
         </Container>
@@ -61,6 +65,7 @@ export const Header = () => {
         </div>
       </div>
       {/* <HomeScreen /> */}
+      <Footer />
     </div>
   );
 };
