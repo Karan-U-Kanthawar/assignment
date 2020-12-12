@@ -25,13 +25,7 @@
   -webkit-text-stroke-color: white;
   text-align: center;
   font-weight: 500;
-  font-size: 4rem;
-}
-
-@media (max-width: 360px) {
-  .HeroPageContainer .heading1 {
-    font: 3rem;
-  }
+  font-size: 2rem;
 }
 
 .HeroPageContainer .heading2 {
@@ -43,12 +37,6 @@
   -webkit-text-fill-color: transparent;
   text-align: center;
   font-weight: 500;
-  font-size: 4rem;
-}
-
-@media (max-width: 360px) {
-  .HeroPageContainer .heading2 {
-    font: 3rem;
-  }
+  font-size: 2rem;
 }
 /*# sourceMappingURL=HeroPage.css.map */
