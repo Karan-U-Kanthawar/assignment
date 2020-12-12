@@ -12,6 +12,24 @@
           align-items: center;
 }
 
+.tokenomicsPageContainer .tokenomicsSubImageContainer {
+  max-width: 100%;
+}
+
+@media (max-width: 980px) {
+  .tokenomicsPageContainer .tokenomicsImageContainer {
+    max-width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .tokenomicsPageContainer .tokenomicsTextContainer {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
 .heading {
   margin-top: 2rem;
   color: white;
@@ -21,9 +39,5 @@
 .content {
   color: #a7a7a7;
   font-family: 'Montserrat', sans-serif;
-}
-
-.TokenomicsImageContainer {
-  max-width: 100%;
 }
 /*# sourceMappingURL=TokenomicsPage.css.map */

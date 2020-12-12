@@ -10,7 +10,7 @@ export const TokenomicsPage = () => {
       <Row>
         <Col lg={8} className='tokenomicsImageContainer'>
           <img
-            className='TokenomicsImageContainer '
+            className='tokenomicsSubImageContainer '
             src={require('./TokenomicsImage2.png')}
             alt='tokenomics'
             width='700px'
@@ -20,7 +20,7 @@ export const TokenomicsPage = () => {
             <FlameDaigram />
           </div>
         </Col>
-        <Col lg={4}>
+        <Col lg={4} className='tokenomicsTextContainer'>
           <Row>
             <h2 className='heading'>Tokenomics</h2>
           </Row>

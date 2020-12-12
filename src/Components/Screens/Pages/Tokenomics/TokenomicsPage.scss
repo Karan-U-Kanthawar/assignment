@@ -4,6 +4,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  .tokenomicsSubImageContainer {
+    max-width: 100%;
+  }
+
+  @media (max-width: 980px) {
+    .tokenomicsImageContainer {
+      max-width: 100%;
+      order: 2;
+    }
+    .tokenomicsTextContainer {
+      order: 1;
+    }
+  }
 }
 .heading {
   margin-top: 2rem;
@@ -13,7 +26,4 @@
 .content {
   color: #a7a7a7;
   font-family: 'Montserrat', sans-serif;
-}
-.TokenomicsImageContainer {
-  max-width: 100%;
 }

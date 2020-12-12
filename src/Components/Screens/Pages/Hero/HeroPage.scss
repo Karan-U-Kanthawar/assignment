@@ -1,6 +1,6 @@
 .HeroPageContainer {
   min-height: 100vh;
-  max-width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +19,9 @@
     font: {
       size: 4rem;
     }
+    @media (max-width: 360px) {
+      font: 3rem;
+    }
   }
   .heading2 {
     font-family: 'Bai Jamjuree', sans-serif;
@@ -30,6 +33,9 @@
     font-weight: 500;
     font: {
       size: 4rem;
+    }
+    @media (max-width: 360px) {
+      font: 3rem;
     }
   }
 }

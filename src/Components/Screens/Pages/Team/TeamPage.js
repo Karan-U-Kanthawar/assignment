@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Image, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './TeamPage.css';
 
 export const TeamPage = () => {
@@ -20,60 +20,85 @@ export const TeamPage = () => {
           </div>
         </div>
         <div className='imageContainer'>
-          <div className='allImg'>
-            <img
-              className='image'
-              src={require('./mark_zuckerberg.png')}
-              alt='member1'
-              width='150px'
-              height='150px'
-            />
-            <h5 className='imgHeading'>Talan Vaccaro</h5>
-            <p className='imgProf'>Business &amp; Founder</p>
+          <div className='main'>
+            <div className='view view-ninth'>
+              <img
+                src={require('./mark_zuckerberg.png')}
+                // className='image'
+                width='300px'
+                height='300px'
+                alt='dummy'
+              />
+              <div className='mask mask-1'></div>
+              <div className='mask mask-2'></div>
+              <div className='content'>
+                <h2>Talan Vaccaro</h2>
+                <p>Business &amp; Founder</p>
+                <a href='#a' className='info'>
+                  Read More
+                </a>
+              </div>
+            </div>
           </div>
-          <div className='allImg'>
-            <img
-              className='image'
-              src={require('./mark_zuckerberg.png')}
-              alt='member1'
-              width='150px'
-              height='150px'
-            />
-            <h5 className='imgHeading'>Talan Vaccaro</h5>
-            <p className='imgProf'>Business &amp; Founder</p>
+          <div className='main'>
+            <div className='view view-ninth'>
+              <img
+                src={require('./mark_zuckerberg.png')}
+                // className='image'
+                width='300px'
+                height='300px'
+                alt='dummy'
+              />
+              <div className='mask mask-1'></div>
+              <div className='mask mask-2'></div>
+              <div className='content'>
+                <h2>Talan Vaccaro</h2>
+                <p>Business &amp; Founder</p>
+                <a href='#a' className='info'>
+                  Read More
+                </a>
+              </div>
+            </div>
           </div>
-          <div className='allImg'>
-            <img
-              className='image'
-              src={require('./mark_zuckerberg.png')}
-              alt='member1'
-              width='150px'
-              height='150px'
-            />
-            <h5 className='imgHeading'>Talan Vaccaro</h5>
-            <p className='imgProf'>Business &amp; Founder</p>
+          <div className='main'>
+            <div className='view view-ninth'>
+              <img
+                src={require('./mark_zuckerberg.png')}
+                // className='image'
+                width='300px'
+                height='300px'
+                alt='dummy'
+              />
+              <div className='mask mask-1'></div>
+              <div className='mask mask-2'></div>
+              <div className='content'>
+                <h2>Talan Vaccaro</h2>
+                <p>Business &amp; Founder</p>
+                <a href='#a' className='info'>
+                  Read More
+                </a>
+              </div>
+            </div>
           </div>
-          <div className='allImg'>
-            <img
-              className='image'
-              src={require('./mark_zuckerberg.png')}
-              alt='member1'
-              width='150px'
-              height='150px'
-            />
-            <h5 className='imgHeading'>Talan Vaccaro</h5>
-            <p className='imgProf'>Business &amp; Founder</p>
-          </div>
-          <div className='allImg'>
-            <img
-              className='image'
-              src={require('./mark_zuckerberg.png')}
-              alt='member1'
-              width='150px'
-              height='150px'
-            />
-            <h5 className='imgHeading'>Talan Vaccaro</h5>
-            <p className='imgProf'>Business &amp; Founder</p>
+          <div className='main'>
+            <div className='view view-ninth'>
+              <img
+                src={require('./mark_zuckerberg.png')}
+                // className='image'
+                width='300px'
+                height='300px'
+                alt='dummy'
+              />
+              <div className='mask mask-1'></div>
+              <div className='mask mask-2'></div>
+              <div className='content'>
+                <h2>Talan Vaccaro</h2>
+                <p>Business &amp; Founder</p>
+                <a href='#a' className='info'>
+                  Read More
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </Container>

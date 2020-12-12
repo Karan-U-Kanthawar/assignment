@@ -1,26 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
 import './Header.css';
-// //////////////////////////////////////////////////////////
 
-import { HeroPage } from '../Screens/Pages/Hero/HeroPage.js';
-import { ProductsPage } from '../Screens/Pages/Products/ProductsPage';
-import { TokenomicsPage } from '../Screens/Pages/Tokenomics/TokenomicsPage.js';
+import { HeroPage } from './Pages/Hero/HeroPage.js';
+import { ProductsPage } from './Pages/Products/ProductsPage';
+import { TokenomicsPage } from './Pages/Tokenomics/TokenomicsPage.js';
 import '../Screens/HomeScreen.css';
 import { RoadmapPage } from './Pages/Roadmap/RoadmapPage.js';
 import { FeaturesPage } from './Pages/Features/FeaturesPage.js';
 import { TeamPage } from './Pages/Team/TeamPage.js';
 import { ContactPage } from './Pages/Contact/ContactPage.js';
 import { Footer } from './Footer.js';
+import { Navbars } from '../Navbar/Navbars.js';
 
-export const Header = () => {
+export const MyWebsite = () => {
   return (
     <div className='headerContainer'>
-      <Container className='headerSubContainer'>
+      <Navbars />
+      {/* <Container className='headerSubContainer'>
         <div>
           <h2 className='heading'>Cryption Network.</h2>
         </div>
-        {/* <div className='navContainer'>
+        <div className='navContainer'>
           <div className='navLinks'>
             <a href='#products'>Products</a>
           </div>
@@ -36,8 +37,8 @@ export const Header = () => {
           <div className='navLinks'>
             <a href='#team'>Teams</a>
           </div>
-        </div> */}
-      </Container>
+        </div>
+      </Container> */}
       <div className='HomeScreenContainer'>
         <HeroPage />
         <div id='products'>
@@ -64,7 +65,6 @@ export const Header = () => {
           </div>
         </div>
       </div>
-      {/* <HomeScreen /> */}
       <Footer />
     </div>
   );
