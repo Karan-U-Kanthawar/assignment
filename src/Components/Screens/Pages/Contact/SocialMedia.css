@@ -32,6 +32,22 @@
   width: 100%;
 }
 
+@media (max-width: 321px) {
+  .wrapper {
+    height: 70px;
+  }
+  .wrapper__links {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .social-link--linkedin {
   color: black;
 }

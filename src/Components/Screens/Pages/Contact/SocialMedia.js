@@ -4,7 +4,7 @@ import './SocialMedia.css';
 
 export const SocialMedia = () => {
   return (
-    <Container>
+    <>
       <div className='wrapper'>
         <div className='wrapper__links'>
           <span className='social-link social-link--dribbble' id='dribbble'>
@@ -143,6 +143,6 @@ export const SocialMedia = () => {
           </span>
         </div>
       </div>
-    </Container>
+    </>
   );
 };

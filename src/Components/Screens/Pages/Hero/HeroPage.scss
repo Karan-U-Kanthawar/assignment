@@ -16,8 +16,20 @@
 
     text-align: center;
     font-weight: 500;
+
     font: {
-      size: 2rem;
+      size: 4rem;
+    }
+
+    @media (min-width: 341px) and (max-width: 530px) {
+      font: {
+        size: 2rem;
+      }
+    }
+    @media (max-width: 340px) {
+      font: {
+        size: 1.5rem;
+      }
     }
   }
   .heading2 {
@@ -29,7 +41,18 @@
     text-align: center;
     font-weight: 500;
     font: {
-      size: 2rem;
+      size: 4rem;
+    }
+
+    @media (min-width: 341px) and (max-width: 530px) {
+      font: {
+        size: 2rem;
+      }
+    }
+    @media (max-width: 340px) {
+      font: {
+        size: 1.5rem;
+      }
     }
   }
 }

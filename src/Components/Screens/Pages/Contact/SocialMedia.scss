@@ -28,7 +28,16 @@ $color-black: #191308;
     width: 100%;
   }
 }
-
+.wrapper {
+  @media (max-width: 321px) {
+    height: 70px;
+    &__links {
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}
 .social-link {
   &--linkedin {
     color: black;

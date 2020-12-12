@@ -1,6 +1,7 @@
 .contactPageContainer {
   background-color: #1a1b23;
-  height: 60vh;
+  height: 70vh;
+  width: 100%;
 }
 
 .contactPageContainer .companyLogoName {
