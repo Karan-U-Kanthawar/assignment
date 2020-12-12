@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
 import './Navbar.css';
+import { Link } from 'react-scroll';
 
 export const Navbars = () => {
   return (
@@ -18,12 +19,72 @@ export const Navbars = () => {
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='ml-auto'>
-            <Nav.Link href='#products'>Products</Nav.Link>
-            <Nav.Link href='#tokenomics'>Tokenomics</Nav.Link>
-            <Nav.Link href='#roadmap'>Roadmap</Nav.Link>
-            <Nav.Link href='#features'>Features</Nav.Link>
-            <Nav.Link href='#team'>Team</Nav.Link>
-            <Nav.Link href='#contact'>Contact</Nav.Link>
+            <Nav.Link>
+              <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to='products'
+              >
+                Products
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to='tokenomics'
+              >
+                Tokenomics
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to='roadmap'
+              >
+                Roadmap
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to='features'
+              >
+                Features
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to='team'
+              >
+                Team
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to='contact'
+              >
+                Contact
+              </Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

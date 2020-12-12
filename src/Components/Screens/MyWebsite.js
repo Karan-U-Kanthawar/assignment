@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container } from 'react-bootstrap';
-import './Header.css';
+import './MyWebsite.css';
 
 import { HeroPage } from './Pages/Hero/HeroPage.js';
 import { ProductsPage } from './Pages/Products/ProductsPage';
@@ -15,7 +15,7 @@ import { Navbars } from '../Navbar/Navbars.js';
 
 export const MyWebsite = () => {
   return (
-    <div className='headerContainer'>
+    <div className='FullContainer'>
       <Navbars />
       {/* <Container className='headerSubContainer'>
         <div>

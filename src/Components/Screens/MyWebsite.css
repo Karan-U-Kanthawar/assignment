@@ -1,10 +1,10 @@
-.headerContainer {
+.FullContainer {
   background-color: #1a1b23;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-.headerContainer .headerSubContainer {
+.FullContainer .headerSubContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,17 +13,17 @@
           justify-content: space-between;
 }
 
-.headerContainer .headerSubContainer .heading {
+.FullContainer .headerSubContainer .heading {
   margin-top: 1rem;
 }
 
-.headerContainer .headerSubContainer .navContainer {
+.FullContainer .headerSubContainer .navContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.headerContainer .headerSubContainer .navContainer .navLinks {
+.FullContainer .headerSubContainer .navContainer .navLinks {
   margin: 1.5rem 1rem 0 1rem;
 }
 
@@ -35,4 +35,4 @@ a:hover {
   color: white;
   text-decoration: underline;
 }
-/*# sourceMappingURL=Header.css.map */
+/*# sourceMappingURL=MyWebsite.css.map */
