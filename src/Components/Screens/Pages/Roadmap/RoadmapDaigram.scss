@@ -1,0 +1,40 @@
+.roadmapSubContainer {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  width: 100%;
+  .fourSub {
+    background-color: #2b2a35;
+    margin: 0.5rem 0;
+    height: 22%;
+    display: flex;
+    .mainSubPlans {
+      flex-grow: 1;
+    }
+    .subPlans {
+      margin: 0.5rem;
+      display: grid;
+      flex-grow: 9;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-row: 1fr 1fr 1fr;
+      grid-template-areas:
+        's1 . .'
+        '. s2 .'
+        '. . s3';
+      .subPlan {
+        text-align: center;
+        color: black;
+        background-color: #2db2e9;
+        border-radius: 5px;
+      }
+      .s1 {
+        grid-area: s1;
+      }
+      .s2 {
+        grid-area: s2;
+      }
+      .s3 {
+        grid-area: s3;
+      }
+    }
+  }
+}
