@@ -15,7 +15,7 @@
   column-gap: 1%;
   .box1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     grid-area: box1;
@@ -50,7 +50,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
+    flex-direction: row;
   }
   .a1 {
     grid-area: a1;
