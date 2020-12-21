@@ -2,25 +2,40 @@
   font-family: 'Montserrat', sans-serif;
   height: 100%;
   width: 100%;
-  .fourSub {
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 450px) {
+    font-size: 2vw;
+  }
+  .masterPlan {
     background-color: #2b2a35;
     margin: 0.5rem 0;
-    height: 22%;
+    flex-grow: 1;
     display: flex;
+
     .mainSubPlans {
+      width: 12%;
       flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
     .subPlans {
       margin: 0.5rem;
       display: grid;
+      grid-gap: 0.3rem 0;
       flex-grow: 9;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-row: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 0.66fr;
+      grid-row: 1fr 1fr 1fr 0.66fr;
       grid-template-areas:
-        's1 . .'
-        '. s2 .'
-        '. . s3';
+        's1 . . '
+        '. s2 . '
+        '. . s3 ';
       .subPlan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         color: black;
         background-color: #2db2e9;
@@ -35,6 +50,138 @@
       .s3 {
         grid-area: s3;
       }
+    }
+  }
+  .projectA {
+    background-color: #2b2a35;
+    margin: 0.5rem 0;
+    flex-grow: 1;
+    display: flex;
+    .mainSubPlans {
+      width: 12%;
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .subPlans {
+      margin: 0.5rem 0 0.5rem 0;
+      height: 100%;
+      flex-grow: 2.5;
+      position: relative;
+      .subPlan {
+        text-align: center;
+        color: black;
+        border-radius: 5px;
+        background-color: #9900ff;
+      }
+      .s1 {
+        height: 40%;
+        width: 40%;
+      }
+      .s2 {
+        margin-top: 0.2rem;
+        width: 60%;
+        position: absolute;
+        top: 40%;
+        right: -2%;
+      }
+    }
+    .emptyPlans {
+      flex-grow: 6.5;
+    }
+  }
+  .projectB {
+    background-color: #2b2a35;
+    margin: 0.5rem 0;
+    flex-grow: 1;
+    display: flex;
+    .mainSubPlans {
+      width: 12%;
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .subPlans {
+      margin: 0.2rem 0 1rem 0;
+      flex-grow: 5;
+      position: relative;
+      .subPlan {
+        text-align: center;
+        color: black;
+        border-radius: 5px;
+        background-color: #9900ff;
+      }
+      .s1 {
+        width: 40%;
+      }
+      .s2 {
+        margin-top: 0.2rem;
+        width: 40%;
+        position: absolute;
+        left: 40%;
+      }
+      .s3 {
+        margin-top: 0.2rem;
+        text-align: center;
+        color: white;
+        position: absolute;
+        width: 10%;
+        bottom: 0;
+        left: 80%;
+      }
+    }
+    .emptyPlans {
+      flex-grow: 4;
+    }
+  }
+  .projectC {
+    flex-grow: 1;
+    background-color: #2b2a35;
+    margin: 0.5rem 0;
+    display: flex;
+    .mainSubPlans {
+      width: 12%;
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .subPlans {
+      margin: 0.2rem 0 1rem 0;
+      flex-grow: 5;
+      position: relative;
+      .subPlan {
+        text-align: center;
+        color: black;
+        border-radius: 5px;
+        background-color: #c97bff;
+      }
+      .s1 {
+        width: 30%;
+      }
+      .s2 {
+        margin-top: 0.2rem;
+        width: 20%;
+        position: absolute;
+        left: 30%;
+      }
+      .s3 {
+        margin-top: 0.2rem;
+        text-align: center;
+        color: white;
+        position: absolute;
+        width: 10%;
+        bottom: 0;
+        left: 55%;
+      }
+    }
+    .emptyPlans {
+      flex-grow: 4;
     }
   }
 }

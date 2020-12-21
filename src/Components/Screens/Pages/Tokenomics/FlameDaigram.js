@@ -1,5 +1,5 @@
 import React from 'react';
-import './FlameDaigram.css';
+import './FlameDaigram.scss';
 
 export const FlameDaigram = () => {
   return (

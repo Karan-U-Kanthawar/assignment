@@ -1,4 +1,4 @@
-$black: #111217;
+$background: #1a1b23;
 $brownl: #70392f;
 $brownd: #612e25;
 $yellow: #ffdc01;
@@ -7,9 +7,9 @@ $red: #f73b01;
 $animationtime: 1.5s;
 
 .fireSubContainer {
-  background-color: $black;
+  background-color: $background;
   .fire {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -25%);

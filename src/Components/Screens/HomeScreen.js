@@ -2,7 +2,7 @@ import React from 'react';
 import { HeroPage } from '../Screens/Pages/Hero/HeroPage.js';
 import { ProductsPage } from '../Screens/Pages/Products/ProductsPage.js';
 import { TokenomicsPage } from '../Screens/Pages/Tokenomics/TokenomicsPage.js';
-import '../Screens/HomeScreen.css';
+import '../Screens/HomeScreen.scss';
 import { RoadmapPage } from './Pages/Roadmap/RoadmapPage.js';
 import { FeaturesPage } from './Pages/Features/FeaturesPage.js';
 import { TeamPage } from './Pages/Team/TeamPage.js';

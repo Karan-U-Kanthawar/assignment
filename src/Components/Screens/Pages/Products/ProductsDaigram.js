@@ -1,114 +1,229 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import '../Products/ProductsDaigram.css';
-import { Image } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { AnimateSharedLayout, motion } from 'framer-motion';
+import './ProductsDaigram.scss';
+import { ReactComponent as Box2a } from './svg/Box2a.svg'; // SVG image for Arrow & names
 
 export const ProductsDaigram = () => {
+  const [open4, setOpen4] = useState(true);
+  const [open5, setOpen5] = useState(true);
+  const [open6, setOpen6] = useState(true);
+  const [open7, setOpen7] = useState(true);
+  const [open8, setOpen8] = useState(true);
   return (
-    <>
+    <AnimateSharedLayout>
       <div className='gridContainer'>
-        <div className='box1'>Box1</div>
-        <div className='box2'>Box2</div>
-        <div className='box3'>Box3</div>
-        <motion.div
-          className='box4'
-          whileHover={{
-            scale: 2,
-            transition: { duration: 0.5 },
-          }}
-        >
-          <div className='box4Container'>
+        <div className='box1'>
+          <div className='letter'>S</div>
+          <div className='letter'>T</div>
+          <div className='letter'>A</div>
+          <div className='letter'>K</div>
+          <div className='letter'>E</div>
+          <div className='letter'>R</div>
+        </div>
+        <div className='box2a arrowNameBox'>{/* <Box2a /> */}</div>
+        <div className='box2b arrowNameBox'>{/* <Box2a /> */}</div>
+        <div className='a a1 arrowNameBox'>{/* <Box2a /> */}</div>
+        <div className='a a2 arrowNameBox'>{/* <Box2a /> */}</div>
+        <div className='a a3 arrowNameBox'>{/* <Box2a /> */}</div>
+        <div className='a a4 arrowNameBox'>{/* <Box2a /> */}</div>
+        <div className='a a5 arrowNameBox'>{/* <Box2a /> */}</div>
+
+        <div className='box3'>USERS</div>
+        {open4 ? (
+          <motion.div
+            onClick={() => setOpen4(false)}
+            layoutId='idBox4'
+            className='normalBox normalBox4'
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.1 },
+            }}
+          >
             <img
-              src={require('./image1.svg')}
+              src={require('./image4.svg')}
               alt='company logo'
-              width='125'
-              height='90'
+              width='50'
+              height='30'
+              className='responsiveImages'
             />
-          </div>
-        </motion.div>
-        <motion.div
-          className='box5'
-          whileHover={{
-            scale: 2,
-            transition: { duration: 0.5 },
-          }}
-        >
-          Box 5
-        </motion.div>
-        <motion.div
-          className='box6'
-          whileHover={{
-            scale: 2,
-            transition: { duration: 0.5 },
-          }}
-        >
-          Box 6
-        </motion.div>
-        <motion.div
-          className='box7'
-          whileHover={{
-            scale: 2,
-            transition: { duration: 0.5 },
-          }}
-        >
-          Box 7
-        </motion.div>
-        <motion.div
-          className='box8'
-          whileHover={{
-            scale: 2,
-            transition: { duration: 0.5 },
-          }}
-        >
-          Box 8
-        </motion.div>
-        <div className='stakeCnt'>Stake CNT</div>
-        <div className='box9'> Box 9 </div>
+          </motion.div>
+        ) : (
+          <motion.div
+            onClick={() => setOpen4(true)}
+            layoutId='idBox4'
+            className='expandedBox expandedBox4'
+          >
+            <img
+              src={require('./image4.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aliquam molestiae ratione sint magnam sequi fugiat u llam earum
+              distinctio
+            </div>
+          </motion.div>
+        )}
+        {open5 ? (
+          <motion.div
+            onClick={() => setOpen5(false)}
+            layoutId='idBox5'
+            className='normalBox normalBox5'
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.1 },
+            }}
+          >
+            <img
+              src={require('./image5.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+          </motion.div>
+        ) : (
+          <motion.div
+            onClick={() => setOpen5(true)}
+            layoutId='idBox5'
+            className='expandedBox expandedBox5'
+          >
+            <img
+              src={require('./image5.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aliquam molestiae ratione sint magnam sequi fugiat u llam earum
+              distinctio
+            </div>
+          </motion.div>
+        )}
+        {open6 ? (
+          <motion.div
+            onClick={() => setOpen6(false)}
+            layoutId='idBox6'
+            className='normalBox normalBox6'
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.1 },
+            }}
+          >
+            <img
+              src={require('./image4.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+          </motion.div>
+        ) : (
+          <motion.div
+            onClick={() => setOpen6(true)}
+            layoutId='idBox6'
+            className='expandedBox expandedBox6'
+          >
+            <img
+              src={require('./image4.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aliquam molestiae ratione sint magnam sequi fugiat u llam earum
+              distinctio
+            </div>
+          </motion.div>
+        )}
+        {open7 ? (
+          <motion.div
+            onClick={() => setOpen7(false)}
+            layoutId='idBox7'
+            className='normalBox normalBox7'
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.1 },
+            }}
+          >
+            <img
+              src={require('./image7.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+          </motion.div>
+        ) : (
+          <motion.div
+            onClick={() => setOpen7(true)}
+            layoutId='idBox7'
+            className='expandedBox expandedBox7'
+          >
+            <img
+              src={require('./image7.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aliquam molestiae ratione sint magnam sequi fugiat u llam earum
+              distinctio
+            </div>
+          </motion.div>
+        )}
+        {open8 ? (
+          <motion.div
+            onClick={() => setOpen8(false)}
+            layoutId='idBox8'
+            className='normalBox normalBox8'
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.1 },
+            }}
+          >
+            <img
+              src={require('./image8.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+          </motion.div>
+        ) : (
+          <motion.div
+            onClick={() => setOpen8(true)}
+            layoutId='idBox8'
+            className='expandedBox expandedBox8'
+          >
+            <img
+              src={require('./image8.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aliquam molestiae ratione sint magnam sequi fugiat u llam earum
+              distinctio
+            </div>
+          </motion.div>
+        )}
+        <div className='a6 arrowNameBox'>{/* <Box2a /> */}</div>
+        <div className='a7 arrowNameBox'>{/* <Box2a /> */}</div>
+        <div className='a8 arrowNameBox'>{/* <Box2a /> */}</div>
+        <div className='box9'>LIQUIDITY PROVIDERS</div>
       </div>
-    </>
+    </AnimateSharedLayout>
   );
 };
-
-// export const ProductsDaigram = () => {
-//   const [selectedId, setSelectedId] = useState(null);
-//   const items = [
-//     { image: 'image1', className: 'box4', id: 4 },
-//     { image: 'image1', className: 'box5', id: 5 },
-//     { image: 'image1', className: 'box6', id: 6 },
-//     { image: 'image1', className: 'box7', id: 7 },
-//     { image: 'image1', className: 'box8', id: 8 },
-//   ];
-//   return (
-//     <>
-//       <div className='gridContainer'>
-//         <div className='box1'>Box1</div>
-//         <div className='box2'>Box2</div>
-//         <div className='box3'>Box3</div>
-//         {/* ------------------------------------------------------------------------------ */}
-//         <AnimateSharedLayout type='crossfade'>
-//           {items.map((item) => (
-//             <motion.div
-//               layoutId={item.id}
-//               onClick={() => setSelectedId(item.id)}
-//             >
-//               <div className={`${item.className}`}>{item.className}</div>
-//             </motion.div>
-//           ))}
-//           <AnimatePresence>
-//             {selectedId &&
-//               items.map((item) => (
-//                 <motion.div layoutId={item.id}>
-//                   <div className={`${item.className}`}>{item.className}</div>
-//                   <motion.button onClick={() => setSelectedId(null)}>
-//                     x
-//                   </motion.button>
-//                 </motion.div>
-//               ))}
-//           </AnimatePresence>
-//         </AnimateSharedLayout>
-//         {/* ------------------------------------------------------------------------------ */}
-//         <div className='box9'> Box 9 </div>
-//       </div>
-//     </>
-//   );
-// };

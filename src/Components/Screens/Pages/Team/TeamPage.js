@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import './TeamPage.css';
+import './TeamPage.scss';
 
 export const TeamPage = () => {
   return (
@@ -21,11 +21,14 @@ export const TeamPage = () => {
           />
           <h5 className='name'>Talan Vaccaro</h5>
           <div className='position'>Business & Founder</div>
+          <div className='position'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
           <div className='socialMediaIcons'>
             <span className='social-link social-link--linkedin' id='linkedin'>
               <svg
                 className='social-svg'
-                viewBox='0 0 600 600'
+                viewBox='0 0 700 700'
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <title>linkedin</title>
@@ -57,7 +60,7 @@ export const TeamPage = () => {
             <span className='social-link social-link--github' id='github'>
               <svg
                 className='social-svg'
-                viewBox='0 0 600 600'
+                viewBox='0 0 700 700'
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <title>github</title>
@@ -98,11 +101,14 @@ export const TeamPage = () => {
           />
           <h5 className='name'>Talan Vaccaro</h5>
           <div className='position'>Business & Founder</div>
+          <div className='position'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
           <div className='socialMediaIcons'>
             <span className='social-link social-link--linkedin' id='linkedin'>
               <svg
                 className='social-svg'
-                viewBox='0 0 600 600'
+                viewBox='0 0 700 700'
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <title>linkedin</title>
@@ -134,7 +140,7 @@ export const TeamPage = () => {
             <span className='social-link social-link--github' id='github'>
               <svg
                 className='social-svg'
-                viewBox='0 0 600 600'
+                viewBox='0 0 700 700'
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <title>github</title>
@@ -175,11 +181,15 @@ export const TeamPage = () => {
           />
           <h5 className='name'>Talan Vaccaro</h5>
           <div className='position'>Business & Founder</div>
+
+          <div className='position'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
           <div className='socialMediaIcons'>
             <span className='social-link social-link--linkedin' id='linkedin'>
               <svg
                 className='social-svg'
-                viewBox='0 0 600 600'
+                viewBox='0 0 700 700'
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <title>linkedin</title>
@@ -211,7 +221,7 @@ export const TeamPage = () => {
             <span className='social-link social-link--github' id='github'>
               <svg
                 className='social-svg'
-                viewBox='0 0 600 600'
+                viewBox='0 0 700 700'
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <title>github</title>
@@ -252,11 +262,15 @@ export const TeamPage = () => {
           />
           <h5 className='name'>Talan Vaccaro</h5>
           <div className='position'>Business & Founder</div>
+
+          <div className='position'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
           <div className='socialMediaIcons'>
             <span className='social-link social-link--linkedin' id='linkedin'>
               <svg
                 className='social-svg'
-                viewBox='0 0 600 600'
+                viewBox='0 0 700 700'
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <title>linkedin</title>
@@ -288,7 +302,7 @@ export const TeamPage = () => {
             <span className='social-link social-link--github' id='github'>
               <svg
                 className='social-svg'
-                viewBox='0 0 600 600'
+                viewBox='0 0 700 700'
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <title>github</title>
@@ -329,11 +343,15 @@ export const TeamPage = () => {
           />
           <h5 className='name'>Talan Vaccaro</h5>
           <div className='position'>Business & Founder</div>
+
+          <div className='position'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
           <div className='socialMediaIcons'>
             <span className='social-link social-link--linkedin' id='linkedin'>
               <svg
                 className='social-svg'
-                viewBox='0 0 600 600'
+                viewBox='0 0 700 700'
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <title>linkedin</title>
@@ -365,7 +383,7 @@ export const TeamPage = () => {
             <span className='social-link social-link--github' id='github'>
               <svg
                 className='social-svg'
-                viewBox='0 0 600 600'
+                viewBox='0 0 700 700'
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <title>github</title>

@@ -1,10 +1,14 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
-import './HeroPage.css';
+import './HeroPage.scss';
 
-export const HeroPage = () => (
-  <div className='HeroPageContainer'>
-    <div className='heading1'>timeless value.</div>
-    <div className='heading2'>world's first non-depreciating currency</div>
-  </div>
-);
+export const HeroPage = () => {
+  return (
+    <div className='HeroPageContainer'>
+      <div id='main-container'>
+        <canvas id='canvas'></canvas>
+      </div>
+      <div className='heading1'>timeless value.</div>
+      <div className='heading2'>world's first non-depreciating currency</div>
+    </div>
+  );
+};

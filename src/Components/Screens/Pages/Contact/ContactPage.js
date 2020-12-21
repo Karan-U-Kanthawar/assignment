@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
-import './ContactPage.css';
+import { Container } from 'react-bootstrap';
+import './ContactPage.scss';
 import { SocialMedia } from './SocialMedia.js';
 
 export const ContactPage = () => {

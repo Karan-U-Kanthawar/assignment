@@ -1,6 +1,7 @@
 .teamPageContainer {
   min-height: 80vh;
   margin-top: 3rem;
+  // height: 400px;
   .teamPageHeading {
     font-family: 'Bai Jamjuree', sans-serif;
     color: white;
@@ -27,6 +28,7 @@
       height: 100%;
 
       .imgContainer {
+        margin: 1.5rem;
         border-radius: 50%;
       }
       .name {
@@ -55,13 +57,12 @@
   background-color: #2b2733;
   box-shadow: 0 0 5px 1px black;
   border-radius: 23px;
-  height: 400px;
 
   .imgContainer {
     margin: 1.5rem;
     -webkit-box-shadow: 0px -5px 5px 1px #266ac6, 0px 5px 5px 1px #591790;
     box-shadow: 0px -5px 10px 4px #266ac6, 0px 5px 15px 4px #591790;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
   }
-  transition: all 2s ease;
+  transition: all 0.7s ease;
 }

@@ -1,24 +1,14 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { FlameDaigram } from './FlameDaigram.js';
 import { TokenomicsDaigram } from './TokenomicsDaigram.js';
-import './TokenomicsPage.css';
+import './TokenomicsPage.scss';
 
 export const TokenomicsPage = () => {
   return (
     <Container className='tokenomicsPageContainer'>
       <Row>
         <Col lg={8} className='tokenomicsImageContainer'>
-          <img
-            className='tokenomicsSubImageContainer '
-            src={require('./TokenomicsImage2.png')}
-            alt='tokenomics'
-            width='700px'
-            height='550px'
-          />
-          <div className='flameContainer'>
-            <FlameDaigram />
-          </div>
+          <TokenomicsDaigram />
         </Col>
         <Col lg={4} className='tokenomicsTextContainer'>
           <Row>

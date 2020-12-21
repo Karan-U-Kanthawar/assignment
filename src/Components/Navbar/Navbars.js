@@ -1,6 +1,6 @@
 import React from 'react';
-import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
-import './Navbar.css';
+import { Nav, Navbar } from 'react-bootstrap';
+import './Navbar.scss';
 import { Link } from 'react-scroll';
 
 export const Navbars = () => {

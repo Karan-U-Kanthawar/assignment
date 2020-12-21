@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { ProductsDaigram } from '../Products/ProductsDaigram.js';
-import '../Products/ProductsPage.css';
+import { ProductsDaigram } from './ProductsDaigram.js';
+import './ProductsPage.scss';
 
 export const ProductsPage = () => {
   return (
@@ -21,13 +21,7 @@ export const ProductsPage = () => {
           </p>
         </Col>
         <Col lg={8}>
-          <img
-            className='ProductImageContainer'
-            src={require('./ProductImage.png')}
-            alt='product'
-            width='650px'
-            height='400px'
-          />
+          <ProductsDaigram />
         </Col>
       </Row>
     </Container>

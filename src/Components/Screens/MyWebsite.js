@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import './MyWebsite.css';
+import './MyWebsite.scss';
 
 import { HeroPage } from './Pages/Hero/HeroPage.js';
 import { ProductsPage } from './Pages/Products/ProductsPage';
 import { TokenomicsPage } from './Pages/Tokenomics/TokenomicsPage.js';
-import '../Screens/HomeScreen.css';
+import '../Screens/HomeScreen.scss';
 import { RoadmapPage } from './Pages/Roadmap/RoadmapPage.js';
 import { FeaturesPage } from './Pages/Features/FeaturesPage.js';
 import { TeamPage } from './Pages/Team/TeamPage.js';
@@ -17,28 +17,6 @@ export const MyWebsite = () => {
   return (
     <div className='FullContainer'>
       <Navbars />
-      {/* <Container className='headerSubContainer'>
-        <div>
-          <h2 className='heading'>Cryption Network.</h2>
-        </div>
-        <div className='navContainer'>
-          <div className='navLinks'>
-            <a href='#products'>Products</a>
-          </div>
-          <div className='navLinks'>
-            <a href='#tokenomics'>Tokenomics</a>
-          </div>
-          <div className='navLinks'>
-            <a href='#roadmap'>Roadmap</a>
-          </div>
-          <div className='navLinks'>
-            <a href='#features'>Features</a>
-          </div>
-          <div className='navLinks'>
-            <a href='#team'>Teams</a>
-          </div>
-        </div>
-      </Container> */}
       <div className='HomeScreenContainer'>
         <HeroPage />
         <div id='products'>

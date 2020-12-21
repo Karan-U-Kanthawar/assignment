@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import './FeaturesPage.css';
+import './FeaturesPage.scss';
 
 export const FeaturesPage = () => {
   return (
