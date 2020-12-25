@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { AnimateSharedLayout, motion } from 'framer-motion';
 import './ProductsDaigram.scss';
-import { ReactComponent as Box2a } from './svg/Box2a.svg'; // SVG image for Arrow & names
+import topArrow from './topArrow.png';
+import leftRight from './leftRight.png';
+import upDown from './upDown.png';
 
 export const ProductsDaigram = () => {
   const [open4, setOpen4] = useState(true);
@@ -11,22 +13,62 @@ export const ProductsDaigram = () => {
   const [open8, setOpen8] = useState(true);
   return (
     <AnimateSharedLayout>
-      <div className='gridContainer'>
+      <div className='gridContainer' style={{ maxHeight: '400px' }}>
         <div className='box1'>
-          <div className='letter'>S</div>
-          <div className='letter'>T</div>
-          <div className='letter'>A</div>
-          <div className='letter'>K</div>
-          <div className='letter'>E</div>
-          <div className='letter'>R</div>
+          <div className='stakerName'>
+            <div className='letter'>S</div>
+            <div className='letter'>T</div>
+            <div className='letter'>A</div>
+            <div className='letter'>K</div>
+            <div className='letter'>E</div>
+            <div className='letter'>R</div>
+          </div>
         </div>
-        <div className='box2a arrowNameBox'>{/* <Box2a /> */}</div>
-        <div className='box2b arrowNameBox'>{/* <Box2a /> */}</div>
-        <div className='a a1 arrowNameBox'>{/* <Box2a /> */}</div>
-        <div className='a a2 arrowNameBox'>{/* <Box2a /> */}</div>
-        <div className='a a3 arrowNameBox'>{/* <Box2a /> */}</div>
-        <div className='a a4 arrowNameBox'>{/* <Box2a /> */}</div>
-        <div className='a a5 arrowNameBox'>{/* <Box2a /> */}</div>
+        <div className='box2a arrowNameBox'>
+          <div style={{ flexDirection: 'column' }}>
+            <span>Stake CNT</span>
+            <img
+              src={leftRight}
+              alt='Top arrow'
+              width='100%'
+              height='auto'
+              style={{ objectFit: 'contain' }}
+            />
+            <span>Earn CNT</span>
+          </div>
+        </div>
+        <div className='box2b arrowNameBox'>
+          <div style={{ flexDirection: 'column' }}>
+            <span>Earn CNT</span>
+            <img
+              src={leftRight}
+              alt='Top arrow'
+              width='100%'
+              height='auto'
+              style={{ objectFit: 'contain' }}
+            />
+            <span>Stake LP CNT</span>
+          </div>
+        </div>
+        <div className='a a1 arrowNameBox'>
+          <img src={topArrow} alt='Top arrow' width='10px' height='100%' />
+          <span>CNT Airdrop </span>
+        </div>
+        <div className='a a2 arrowNameBox'>
+          <img src={topArrow} alt='Top arrow' width='10px' height='100%' />
+          <span>CNT Airdrop </span>
+        </div>
+        <div className='a a3 arrowNameBox'>
+          <img src={topArrow} alt='Top arrow' width='10px' height='100%' />
+          <span>CNT Airdrop </span>
+        </div>
+        <div className='a a4 arrowNameBox'>
+          <img src={topArrow} alt='Top arrow' width='10px' height='100%' />
+          <span>CNT Airdrop </span>
+        </div>
+        <div className='a a5 arrowNameBox'>
+          <img src={topArrow} alt='Top arrow' width='10px' height='100%' />
+        </div>
 
         <div className='box3'>USERS</div>
         {open4 ? (
@@ -219,9 +261,28 @@ export const ProductsDaigram = () => {
             </div>
           </motion.div>
         )}
-        <div className='a6 arrowNameBox'>{/* <Box2a /> */}</div>
-        <div className='a7 arrowNameBox'>{/* <Box2a /> */}</div>
-        <div className='a8 arrowNameBox'>{/* <Box2a /> */}</div>
+        <div
+          className='a6 arrowNameBox'
+          style={{ display: 'flex', justifyContent: 'center' }}
+        >
+          <span className='left'>Receive LP tokens</span>
+          <img src={upDown} alt='Top arrow' width='22px' height='auto' />
+          <span className='right'>Provide Liquidity</span>
+        </div>
+        <div
+          className='a7 arrowNameBox'
+          style={{ display: 'flex', justifyContent: 'center' }}
+        >
+          <span className='left'>Receive LP tokens</span>
+          <img src={upDown} alt='Top arrow' width='22px' height='auto' />
+          <span className='right'>Provide Liquidity</span>
+        </div>
+        <div
+          className='a8 arrowNameBox'
+          style={{ display: 'flex', justifyContent: 'center' }}
+        >
+          <img src={upDown} alt='Top arrow' width='22px' height='auto' />
+        </div>
         <div className='box9'>LIQUIDITY PROVIDERS</div>
       </div>
     </AnimateSharedLayout>

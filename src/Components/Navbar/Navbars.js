@@ -74,17 +74,6 @@ export const Navbars = () => {
                 Team
               </Link>
             </Nav.Link>
-            <Nav.Link>
-              <Link
-                activeClass='active'
-                spy={true}
-                smooth={true}
-                duration={1000}
-                to='contact'
-              >
-                Contact
-              </Link>
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

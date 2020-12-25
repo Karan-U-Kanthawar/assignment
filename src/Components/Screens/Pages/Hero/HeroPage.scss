@@ -1,66 +1,106 @@
+// .HeroPageContainer {
+//   min-height: 100vh;
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+//   background-color: #1a1b23;
+
+//   .heading1 {
+//     text-transform: uppercase;
+//     font-family: 'Bai Jamjuree', sans-serif;
+//     color: #1a1b23;
+//     -webkit-text-stroke: 2px;
+//     -webkit-text-stroke-color: white;
+
+//     text-align: center;
+//     font-weight: 500;
+
+//     font: {
+//       size: 4rem;
+//     }
+
+//     @media (min-width: 341px) and (max-width: 530px) {
+//       font: {
+//         size: 2rem;
+//       }
+//     }
+//     @media (max-width: 340px) {
+//       font: {
+//         size: 1.5rem;
+//       }
+//     }
+//   }
+//   .heading2 {
+//     font-family: 'Bai Jamjuree', sans-serif;
+//     text-transform: uppercase;
+//     background: linear-gradient(to right, #2082e9, #9900ff);
+//     -webkit-background-clip: text;
+//     -webkit-text-fill-color: transparent;
+//     text-align: center;
+//     font-weight: 500;
+//     font: {
+//       size: 4rem;
+//     }
+
+//     @media (min-width: 341px) and (max-width: 530px) {
+//       font: {
+//         size: 2rem;
+//       }
+//     }
+//     @media (max-width: 340px) {
+//       font: {
+//         size: 1.5rem;
+//       }
+//     }
+//   }
+// }
+// #main-container,
+// canvas {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+//   height: 100%;
+// }
+
 .HeroPageContainer {
-  min-height: 100vh;
-  width: 100%;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background-color: #1a1b23;
 
-  .heading1 {
-    text-transform: uppercase;
-    font-family: 'Bai Jamjuree', sans-serif;
-    color: #1a1b23;
-    -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: white;
-
-    text-align: center;
-    font-weight: 500;
-
-    font: {
-      size: 4rem;
+  position: relative;
+  #main-container {
+    color: white;
+    position: absolute;
+    .heading1 {
+      text-transform: uppercase;
+      font-family: 'Bai Jamjuree', sans-serif;
+      color: #1a1b23;
+      // color: white;
+      -webkit-text-stroke: 2px;
+      -webkit-text-stroke-color: white;
+      text-align: center;
+      font-weight: 500;
+      font-size: 6vw;
+      // font: {
+      // size: 4rem;
+      // }
     }
-
-    @media (min-width: 341px) and (max-width: 530px) {
+    .heading2 {
+      font-family: 'Bai Jamjuree', sans-serif;
+      text-transform: uppercase;
+      background: linear-gradient(to right, #2082e9, #9900ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      font-weight: 500;
       font: {
-        size: 2rem;
-      }
-    }
-    @media (max-width: 340px) {
-      font: {
-        size: 1.5rem;
-      }
-    }
-  }
-  .heading2 {
-    font-family: 'Bai Jamjuree', sans-serif;
-    text-transform: uppercase;
-    background: linear-gradient(to right, #2082e9, #9900ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-weight: 500;
-    font: {
-      size: 4rem;
-    }
-
-    @media (min-width: 341px) and (max-width: 530px) {
-      font: {
-        size: 2rem;
-      }
-    }
-    @media (max-width: 340px) {
-      font: {
-        size: 1.5rem;
+        size: 4rem;
       }
     }
   }
-}
-#main-container,
-canvas {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
 }
