@@ -4,7 +4,6 @@ import './ProductsDaigram.scss';
 import topArrow from './topArrow.png';
 import leftRight from './leftRight.png';
 import upDown from './upDown.png';
-import { ReactComponent as Box2a } from './svg/Box2a.svg'; // SVG image for Arrow & names
 
 export const ProductsDaigram = () => {
   const [open4, setOpen4] = useState(true);
@@ -16,35 +15,60 @@ export const ProductsDaigram = () => {
     <AnimateSharedLayout>
       <div className='gridContainer' style={{ maxHeight: '400px' }}>
         <div className='box1'>
-          <div className='letter'>S</div>
-          <div className='letter'>T</div>
-          <div className='letter'>A</div>
-          <div className='letter'>K</div>
-          <div className='letter'>E</div>
-          <div className='letter'>R</div>
+          <div className='stakerName'>
+            <div className='letter'>S</div>
+            <div className='letter'>T</div>
+            <div className='letter'>A</div>
+            <div className='letter'>K</div>
+            <div className='letter'>E</div>
+            <div className='letter'>R</div>
+          </div>
         </div>
         <div className='box2a arrowNameBox'>
-          <div className='a a2 arrowNameBox' style={{ flexDirection: 'column' }} >
+          <div style={{ flexDirection: 'column' }}>
             <span>Stake CNT</span>
-            <img src={leftRight} alt="Top arrow" width="100%" height="auto" style={{ objectFit: 'contain' }} />
+            <img
+              src={leftRight}
+              alt='Top arrow'
+              width='100%'
+              height='auto'
+              style={{ objectFit: 'contain' }}
+            />
             <span>Earn CNT</span>
           </div>
         </div>
         <div className='box2b arrowNameBox'>
-          <div className='a a2 arrowNameBox' style={{ flexDirection: 'column' }} >
+          <div style={{ flexDirection: 'column' }}>
             <span>Earn CNT</span>
-            <img src={leftRight} alt="Top arrow" width="100%" height="auto" style={{ objectFit: 'contain' }} />
-            <span>Stakr LP CNT</span>
+            <img
+              src={leftRight}
+              alt='Top arrow'
+              width='100%'
+              height='auto'
+              style={{ objectFit: 'contain' }}
+            />
+            <span>Stake LP CNT</span>
           </div>
         </div>
         <div className='a a1 arrowNameBox'>
-          <img src={topArrow} alt="Top arrow" width="10px" height="100%" />
-          {/* <span>CNT Airdrop </span> */}
+          <img src={topArrow} alt='Top arrow' width='10px' height='100%' />
+          <span>CNT Airdrop </span>
         </div>
-        <div className='a a2 arrowNameBox'><img src={topArrow} alt="Top arrow" width="10px" height="100%" /></div>
-        <div className='a a3 arrowNameBox'><img src={topArrow} alt="Top arrow" width="10px" height="100%" /></div>
-        <div className='a a4 arrowNameBox'><img src={topArrow} alt="Top arrow" width="10px" height="100%" /></div>
-        <div className='a a5 arrowNameBox'><img src={topArrow} alt="Top arrow" width="10px" height="100%" /></div>
+        <div className='a a2 arrowNameBox'>
+          <img src={topArrow} alt='Top arrow' width='10px' height='100%' />
+          <span>CNT Airdrop </span>
+        </div>
+        <div className='a a3 arrowNameBox'>
+          <img src={topArrow} alt='Top arrow' width='10px' height='100%' />
+          <span>CNT Airdrop </span>
+        </div>
+        <div className='a a4 arrowNameBox'>
+          <img src={topArrow} alt='Top arrow' width='10px' height='100%' />
+          <span>CNT Airdrop </span>
+        </div>
+        <div className='a a5 arrowNameBox'>
+          <img src={topArrow} alt='Top arrow' width='10px' height='100%' />
+        </div>
 
         <div className='box3'>USERS</div>
         {open4 ? (
@@ -66,25 +90,25 @@ export const ProductsDaigram = () => {
             />
           </motion.div>
         ) : (
-            <motion.div
-              onClick={() => setOpen4(true)}
-              layoutId='idBox4'
-              className='expandedBox expandedBox4'
-            >
-              <img
-                src={require('./image4.svg')}
-                alt='company logo'
-                width='90'
-                height='60'
-                className='responsiveImages'
-              />
-              <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-                aliquam molestiae ratione sint magnam sequi fugiat u llam earum
-                distinctio
+          <motion.div
+            onClick={() => setOpen4(true)}
+            layoutId='idBox4'
+            className='expandedBox expandedBox4'
+          >
+            <img
+              src={require('./image4.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aliquam molestiae ratione sint magnam sequi fugiat u llam earum
+              distinctio
             </div>
-            </motion.div>
-          )}
+          </motion.div>
+        )}
         {open5 ? (
           <motion.div
             onClick={() => setOpen5(false)}
@@ -104,25 +128,25 @@ export const ProductsDaigram = () => {
             />
           </motion.div>
         ) : (
-            <motion.div
-              onClick={() => setOpen5(true)}
-              layoutId='idBox5'
-              className='expandedBox expandedBox5'
-            >
-              <img
-                src={require('./image5.svg')}
-                alt='company logo'
-                width='90'
-                height='60'
-                className='responsiveImages'
-              />
-              <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-                aliquam molestiae ratione sint magnam sequi fugiat u llam earum
-                distinctio
+          <motion.div
+            onClick={() => setOpen5(true)}
+            layoutId='idBox5'
+            className='expandedBox expandedBox5'
+          >
+            <img
+              src={require('./image5.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aliquam molestiae ratione sint magnam sequi fugiat u llam earum
+              distinctio
             </div>
-            </motion.div>
-          )}
+          </motion.div>
+        )}
         {open6 ? (
           <motion.div
             onClick={() => setOpen6(false)}
@@ -142,25 +166,25 @@ export const ProductsDaigram = () => {
             />
           </motion.div>
         ) : (
-            <motion.div
-              onClick={() => setOpen6(true)}
-              layoutId='idBox6'
-              className='expandedBox expandedBox6'
-            >
-              <img
-                src={require('./image4.svg')}
-                alt='company logo'
-                width='90'
-                height='60'
-                className='responsiveImages'
-              />
-              <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-                aliquam molestiae ratione sint magnam sequi fugiat u llam earum
-                distinctio
+          <motion.div
+            onClick={() => setOpen6(true)}
+            layoutId='idBox6'
+            className='expandedBox expandedBox6'
+          >
+            <img
+              src={require('./image4.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aliquam molestiae ratione sint magnam sequi fugiat u llam earum
+              distinctio
             </div>
-            </motion.div>
-          )}
+          </motion.div>
+        )}
         {open7 ? (
           <motion.div
             onClick={() => setOpen7(false)}
@@ -180,25 +204,25 @@ export const ProductsDaigram = () => {
             />
           </motion.div>
         ) : (
-            <motion.div
-              onClick={() => setOpen7(true)}
-              layoutId='idBox7'
-              className='expandedBox expandedBox7'
-            >
-              <img
-                src={require('./image7.svg')}
-                alt='company logo'
-                width='90'
-                height='60'
-                className='responsiveImages'
-              />
-              <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-                aliquam molestiae ratione sint magnam sequi fugiat u llam earum
-                distinctio
+          <motion.div
+            onClick={() => setOpen7(true)}
+            layoutId='idBox7'
+            className='expandedBox expandedBox7'
+          >
+            <img
+              src={require('./image7.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aliquam molestiae ratione sint magnam sequi fugiat u llam earum
+              distinctio
             </div>
-            </motion.div>
-          )}
+          </motion.div>
+        )}
         {open8 ? (
           <motion.div
             onClick={() => setOpen8(false)}
@@ -218,33 +242,46 @@ export const ProductsDaigram = () => {
             />
           </motion.div>
         ) : (
-            <motion.div
-              onClick={() => setOpen8(true)}
-              layoutId='idBox8'
-              className='expandedBox expandedBox8'
-            >
-              <img
-                src={require('./image8.svg')}
-                alt='company logo'
-                width='90'
-                height='60'
-                className='responsiveImages'
-              />
-              <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-                aliquam molestiae ratione sint magnam sequi fugiat u llam earum
-                distinctio
+          <motion.div
+            onClick={() => setOpen8(true)}
+            layoutId='idBox8'
+            className='expandedBox expandedBox8'
+          >
+            <img
+              src={require('./image8.svg')}
+              alt='company logo'
+              width='90'
+              height='60'
+              className='responsiveImages'
+            />
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              aliquam molestiae ratione sint magnam sequi fugiat u llam earum
+              distinctio
             </div>
-            </motion.div>
-          )}
-        <div className='a6 arrowNameBox' style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={upDown} alt="Top arrow" width="22px" height="auto" />
+          </motion.div>
+        )}
+        <div
+          className='a6 arrowNameBox'
+          style={{ display: 'flex', justifyContent: 'center' }}
+        >
+          <span className='left'>Receive LP tokens</span>
+          <img src={upDown} alt='Top arrow' width='22px' height='auto' />
+          <span className='right'>Provide Liquidity</span>
         </div>
-        <div className='a7 arrowNameBox' style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={upDown} alt="Top arrow" width="22px" height="auto" />
+        <div
+          className='a7 arrowNameBox'
+          style={{ display: 'flex', justifyContent: 'center' }}
+        >
+          <span className='left'>Receive LP tokens</span>
+          <img src={upDown} alt='Top arrow' width='22px' height='auto' />
+          <span className='right'>Provide Liquidity</span>
         </div>
-        <div className='a8 arrowNameBox' style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={upDown} alt="Top arrow" width="22px" height="auto" />
+        <div
+          className='a8 arrowNameBox'
+          style={{ display: 'flex', justifyContent: 'center' }}
+        >
+          <img src={upDown} alt='Top arrow' width='22px' height='auto' />
         </div>
         <div className='box9'>LIQUIDITY PROVIDERS</div>
       </div>

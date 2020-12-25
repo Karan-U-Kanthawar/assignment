@@ -19,9 +19,15 @@ export const MyWebsite = () => {
       <Navbars />
       <div className='HomeScreenContainer'>
         <HeroPage />
+        <br />
+        <br />
         <div id='products'>
           <ProductsPage className='products' />
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <br />

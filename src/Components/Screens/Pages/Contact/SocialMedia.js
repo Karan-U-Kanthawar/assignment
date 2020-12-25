@@ -13,6 +13,12 @@ export const SocialMedia = () => {
               xmlns='http://www.w3.org/2000/svg'
             >
               <title>dribbble</title>
+              <defs>
+                <linearGradient x1='0%' y1='100%' y2='0%' id='simpleDribble'>
+                  <stop stopColor='#247EEA' offset='0%' />
+                  <stop stopColor='#9505FE' offset='100%' />
+                </linearGradient>
+              </defs>
               <g className='social-group' fill='none' fillRule='evenodd'>
                 <circle
                   className='social-group__outline'
@@ -24,7 +30,7 @@ export const SocialMedia = () => {
                 />
                 <circle
                   className='social-group__inner-circle'
-                  fill='#DA5988'
+                  fill='url(#simpleDribble)'
                   cx='300'
                   cy='300'
                   r='252.5'
@@ -45,6 +51,12 @@ export const SocialMedia = () => {
               xmlns='http://www.w3.org/2000/svg'
             >
               <title>github</title>
+              <defs>
+                <linearGradient x1='0%' y1='100%' y2='0%' id='simpleGithub'>
+                  <stop stopColor='#247EEA' offset='0%' />
+                  <stop stopColor='#9505FE' offset='100%' />
+                </linearGradient>
+              </defs>
               <g className='social-group' fill='none' fillRule='evenodd'>
                 <circle
                   className='social-group__outline'
@@ -56,7 +68,7 @@ export const SocialMedia = () => {
                 />
                 <circle
                   className='social-group__inner-circle'
-                  fill='#000'
+                  fill='url(#simpleGithub)'
                   cx='300'
                   cy='300'
                   r='252.5'
@@ -77,6 +89,12 @@ export const SocialMedia = () => {
               xmlns='http://www.w3.org/2000/svg'
             >
               <title>linkedin</title>
+              <defs>
+                <linearGradient x1='0%' y1='100%' y2='0%' id='simpleLinkedin'>
+                  <stop stopColor='#247EEA' offset='0%' />
+                  <stop stopColor='#9505FE' offset='100%' />
+                </linearGradient>
+              </defs>
               <g className='social-group' fill='none' fillRule='evenodd'>
                 <circle
                   className='social-group__outline'
@@ -88,7 +106,7 @@ export const SocialMedia = () => {
                 />
                 <circle
                   className='social-group__inner-circle'
-                  fill='#2D76B0'
+                  fill='url(#simpleLinkedin)'
                   cx='300'
                   cy='300'
                   r='252.5'
@@ -111,8 +129,8 @@ export const SocialMedia = () => {
               <title>instagram</title>
               <defs>
                 <linearGradient x1='0%' y1='100%' y2='0%' id='simpleInsta'>
-                  <stop stopColor='#D72F3F' offset='0%' />
-                  <stop stopColor='#4221B9' offset='100%' />
+                  <stop stopColor='#247EEA' offset='0%' />
+                  <stop stopColor='#9505FE' offset='100%' />
                 </linearGradient>
               </defs>
               <g className='social-group' fill='none' fillRule='evenodd'>

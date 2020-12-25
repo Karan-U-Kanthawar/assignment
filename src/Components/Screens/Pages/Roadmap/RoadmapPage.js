@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { RoadmapDaigram } from './RoadmapDaigram.js';
+import RoadmapDaigram from './RoadmapDaigram.png';
+// import { RoadmapDaigram } from './RoadmapDaigram.js';
 import './RoadmapPage.scss';
 
 export const RoadmapPage = () => {
@@ -21,7 +22,14 @@ export const RoadmapPage = () => {
           </p>
         </Col>
         <Col lg={8} clasName='RoadmapImageContainer'>
-          <RoadmapDaigram />
+          {/* <RoadmapDaigram /> */}
+          <img
+            src={RoadmapDaigram}
+            alt='roadmap'
+            width='100%'
+            heigth='auto'
+            style={{ objectFit: 'contain' }}
+          />
         </Col>
       </Row>
     </div>

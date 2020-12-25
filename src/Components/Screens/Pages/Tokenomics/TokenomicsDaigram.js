@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { FlameDaigram } from './FlameDaigram.js';
 import '../Tokenomics/TokenomicsDaigram.scss';
 import { motion } from 'framer-motion';
+import leftBelow from './images/leftBelow.png';
+import rightUp from './images/rightUp.png';
 
 export const TokenomicsDaigram = () => {
   const [open4, setOpen4] = useState(true);
@@ -25,8 +27,8 @@ export const TokenomicsDaigram = () => {
             <img
               src={require('./image4.svg')}
               alt='company logo'
-              width='50'
-              height='30'
+              width='90'
+              height='60'
               className='responsiveImages'
             />
           </motion.div>
@@ -207,7 +209,33 @@ export const TokenomicsDaigram = () => {
         <div className='box8'>
           <FlameDaigram />
         </div>
-
+        <div className='arrowBox1'>
+          <img
+            src={rightUp}
+            alt='top'
+            width='100%'
+            height='100%'
+            style={{ objectFit: 'contain' }}
+          />
+        </div>
+        <div className='arrowBox2'>
+          <img
+            src={leftBelow}
+            alt='bottom'
+            width='100%'
+            height='100%'
+            style={{ objectFit: 'contain' }}
+          />
+        </div>
+        <div className='arrowBox3'>
+          {/* <img
+            src={rightUpCorrect}
+            alt='bottom'
+            width='70%'
+            height='auto'
+            style={{ objectFit: 'contain' }}
+          /> */}
+        </div>
         <div className='box9'>STAKER</div>
       </div>
     </>
