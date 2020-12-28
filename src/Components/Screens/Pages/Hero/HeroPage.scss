@@ -1,106 +1,116 @@
-// .HeroPageContainer {
-//   min-height: 100vh;
-//   width: 100%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   flex-direction: column;
-//   background-color: #1a1b23;
+:root {
+  --color: #4973ff;
+}
 
-//   .heading1 {
-//     text-transform: uppercase;
-//     font-family: 'Bai Jamjuree', sans-serif;
-//     color: #1a1b23;
-//     -webkit-text-stroke: 2px;
-//     -webkit-text-stroke-color: white;
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
-//     text-align: center;
-//     font-weight: 500;
-
-//     font: {
-//       size: 4rem;
-//     }
-
-//     @media (min-width: 341px) and (max-width: 530px) {
-//       font: {
-//         size: 2rem;
-//       }
-//     }
-//     @media (max-width: 340px) {
-//       font: {
-//         size: 1.5rem;
-//       }
-//     }
-//   }
-//   .heading2 {
-//     font-family: 'Bai Jamjuree', sans-serif;
-//     text-transform: uppercase;
-//     background: linear-gradient(to right, #2082e9, #9900ff);
-//     -webkit-background-clip: text;
-//     -webkit-text-fill-color: transparent;
-//     text-align: center;
-//     font-weight: 500;
-//     font: {
-//       size: 4rem;
-//     }
-
-//     @media (min-width: 341px) and (max-width: 530px) {
-//       font: {
-//         size: 2rem;
-//       }
-//     }
-//     @media (max-width: 340px) {
-//       font: {
-//         size: 1.5rem;
-//       }
-//     }
-//   }
-// }
-// #main-container,
-// canvas {
-//   position: absolute;
-//   left: 0;
-//   top: 0;
-//   width: 100%;
-//   height: 100%;
-// }
-
-.HeroPageContainer {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+.hero {
   position: relative;
-  #main-container {
-    color: white;
-    position: absolute;
-    .heading1 {
-      text-transform: uppercase;
-      font-family: 'Bai Jamjuree', sans-serif;
-      color: #1a1b23;
-      // color: white;
-      -webkit-text-stroke: 2px;
-      -webkit-text-stroke-color: white;
-      text-align: center;
-      font-weight: 500;
-      font-size: 6vw;
-      // font: {
-      // size: 4rem;
-      // }
+  background: #1a1b23;
+  color: white;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero h2 {
+  background: linear-gradient(to right, #2082e9, #9900ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Bai Jamjuree', sans-serif;
+  position: relative;
+  z-index: 1;
+  // margin: 0 0 10px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  font: {
+    size: 4rem;
+  }
+  @media (max-width: 430px) {
+    font: {
+      size: 3rem;
     }
-    .heading2 {
-      font-family: 'Bai Jamjuree', sans-serif;
-      text-transform: uppercase;
-      background: linear-gradient(to right, #2082e9, #9900ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-align: center;
-      font-weight: 500;
-      font: {
-        size: 4rem;
-      }
+  }
+  @media (max-width: 320px) {
+    font: {
+      size: 2rem;
     }
+  }
+}
+
+.hero p {
+  color: #1a1b23;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: whitesmoke;
+  font-family: 'Bai Jamjuree', sans-serif;
+  position: relative;
+  z-index: 1;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  font-weight: 500;
+  font: {
+    size: 4rem;
+  }
+  @media (max-width: 430px) {
+    font: {
+      size: 3rem;
+    }
+  }
+  @media (max-width: 320px) {
+    font: {
+      size: 2rem;
+    }
+  }
+}
+
+/* ========================= */
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  background-color: var(--color);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  transition: 500ms;
+}
+
+.waves::before,
+.waves::after {
+  content: '';
+  position: absolute;
+  width: 300vw;
+  height: 300vw;
+  top: -65vw;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+
+.waves::before {
+  border-radius: 44%;
+  background: #2c2e3a;
+  animation: waves 8s linear infinite;
+}
+
+.waves::after {
+  border-radius: 44%;
+  background: #1a1b23;
+  animation: waves 15s linear infinite;
+}
+
+@keyframes waves {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
   }
 }

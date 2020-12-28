@@ -1,5 +1,5 @@
 .productsPageContainer {
-  // height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,6 +11,7 @@
 
 .content {
   margin-top: 2rem;
+  padding: 0;
   color: #a7a7a7;
   font-family: 'Montserrat', sans-serif;
 }

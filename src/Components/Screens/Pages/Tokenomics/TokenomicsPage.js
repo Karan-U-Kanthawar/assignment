@@ -16,16 +16,15 @@ export const TokenomicsPage = () => {
           </Row>
           <Row>
             <p className='content'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              nec erat vel lectus bibendum vehicula quis vitae enim. Integer
-              tincidunt.
+              Part of the profit from every Cryption Network product will be
+              used to mainatin a constant buy pressure on CNT.
             </p>
           </Row>
           <Row>
             <p className='content'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              nec erat vel lectus bibendum vehicula quis vitae enim. Integer
-              tincidunt.
+              Half the tokens bought from those profits will be burned to reduce
+              supply and accrue value to the token whereas the other half will
+              be staked for yield farming.
             </p>
           </Row>
         </Col>
