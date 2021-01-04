@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import './HeroPage.scss';
 import { init } from 'ityped';
 

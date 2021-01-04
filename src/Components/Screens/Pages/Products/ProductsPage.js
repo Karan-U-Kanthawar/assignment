@@ -9,14 +9,14 @@ export const ProductsPage = () => {
       <Row>
         <Col lg={4}>
           <h2 className='heading'>Products</h2>
-          <p className='content'>
+          <p className='content content1'>
             We are building a suite of user firendly crypto products for the
             normal retail investor who wants to invest in crypto but is
             intimidated by its complexity. We see a lack of an integrated
             ecosystem that simplifies investing without taking away from all
             that crypto has to offer.
           </p>
-          <p className='content'>
+          <p className='content content2'>
             Click on the graphic to understand all the legos that make up
             Cryption Network
           </p>

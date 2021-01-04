@@ -10,12 +10,12 @@ export const RoadmapPage = () => {
       <Row>
         <Col lg={4}>
           <h2 className='roadmapHeading'>Road Map</h2>
-          <p className='content'>
+          <p className='content content1'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             nec erat vel lectus bibendum vehicula quis vitae enim. Integer
             tincidunt.ore
           </p>
-          <p className='content'>
+          <p className='content content2'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             nec erat vel lectus bibendum vehicula quis vitae enim. Integer
             tincidunt.ore
