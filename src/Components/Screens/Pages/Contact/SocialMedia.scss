@@ -112,3 +112,15 @@ $color-black: black;
     }
   }
 }
+.social-link {
+  circle {
+    color: #9497a5;
+    fill: #2b2a35;
+  }
+}
+
+.social-link:hover {
+  .social-group__inner-circle {
+    fill: url(#simpleDribble);
+  }
+}
