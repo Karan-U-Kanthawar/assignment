@@ -158,7 +158,7 @@ export const ProductsDaigram = () => {
             }}
           >
             <img
-              src={require('./image4.svg')}
+              src={require('./image6.svg')}
               alt='company logo'
               width='90'
               height='60'
@@ -172,7 +172,7 @@ export const ProductsDaigram = () => {
             className='expandedBox expandedBox6'
           >
             <img
-              src={require('./image4.svg')}
+              src={require('./image6.svg')}
               alt='company logo'
               width='90'
               height='60'

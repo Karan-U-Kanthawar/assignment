@@ -25,7 +25,7 @@ export const TokenomicsDaigram = () => {
             }}
           >
             <img
-              src={require('./image4.svg')}
+              src={require('./image6.svg')}
               alt='company logo'
               width='90'
               height='60'
@@ -39,7 +39,7 @@ export const TokenomicsDaigram = () => {
             className='expandedBox expandedBox4'
           >
             <img
-              src={require('./image4.svg')}
+              src={require('./image6.svg')}
               alt='company logo'
               width='90'
               height='60'
@@ -63,7 +63,7 @@ export const TokenomicsDaigram = () => {
             }}
           >
             <img
-              src={require('./image5.svg')}
+              src={require('./image8.svg')}
               alt='company logo'
               width='90'
               height='60'
@@ -77,7 +77,7 @@ export const TokenomicsDaigram = () => {
             className='expandedBox expandedBox5'
           >
             <img
-              src={require('./image5.svg')}
+              src={require('./image8.svg')}
               alt='company logo'
               width='90'
               height='60'
@@ -101,7 +101,7 @@ export const TokenomicsDaigram = () => {
             }}
           >
             <img
-              src={require('./image4.svg')}
+              src={require('./image5.svg')}
               alt='company logo'
               width='90'
               height='60'
@@ -115,7 +115,7 @@ export const TokenomicsDaigram = () => {
             className='expandedBox expandedBox6'
           >
             <img
-              src={require('./image4.svg')}
+              src={require('./image5.svg')}
               alt='company logo'
               width='90'
               height='60'
@@ -178,7 +178,7 @@ export const TokenomicsDaigram = () => {
             }}
           >
             <img
-              src={require('./image7.svg')}
+              src={require('./image4.svg')}
               alt='company logo'
               width='90'
               height='60'
@@ -192,7 +192,7 @@ export const TokenomicsDaigram = () => {
             className='expandedBox expandedBox7'
           >
             <img
-              src={require('./image7.svg')}
+              src={require('./image4.svg')}
               alt='company logo'
               width='90'
               height='60'

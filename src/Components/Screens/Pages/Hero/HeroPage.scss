@@ -2,10 +2,16 @@
   --color: #4973ff;
 }
 
-.content {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 0 20px;
+.HeroPageContainer {
+  .content {
+    text-align: center;
+    // max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    p {
+      display: inline;
+    }
+  }
 }
 
 .hero {
