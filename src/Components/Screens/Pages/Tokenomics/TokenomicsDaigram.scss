@@ -11,9 +11,11 @@
   row-gap: 1rem;
 
   .arrowBox1 {
+    height: 100%;
     grid-area: arrowBox1;
   }
   .arrowBox2 {
+    height: 75%;
     grid-area: arrowBox2;
   }
   .arrowBox3 {
@@ -39,6 +41,7 @@
     grid-area: box5;
   }
   .box6 {
+    height: 78%;
     grid-area: box6;
   }
   .box7 {

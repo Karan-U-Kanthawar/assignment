@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import './HeroPage.scss';
 import { init } from 'ityped';
 
@@ -8,10 +8,10 @@ export const HeroPage = () => {
     init(myElement, {
       showCursor: false,
       strings: [
-        'A Decentralized Hedge Fund',
-        'A Prediction Market',
-        'A Decentralized Exchange',
-        'A Fiat On-Off Ramp',
+        'Decentralized Hedge Fund',
+        'Prediction Market',
+        'Decentralized Exchange',
+        'Fiat On-Off Ramp',
       ],
     });
   }, []);
@@ -19,7 +19,8 @@ export const HeroPage = () => {
     <div className='HeroPageContainer'>
       <section className='hero'>
         <div className='content'>
-          <h2>One Token, Best Of DeFi</h2>
+          <h2 className='heading'>One Token, Best Of DeFi</h2>
+          <p className='starting'>A </p>
           <p id='myElement'></p>
         </div>
         <div className='waves'></div>
