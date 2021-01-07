@@ -4,6 +4,9 @@ import '../Tokenomics/TokenomicsDaigram.scss';
 import { motion } from 'framer-motion';
 import leftBelow from './images/leftBelow.png';
 import rightUp from './images/rightUp.png';
+import rightUpCorrect from './images/rightUpCorrect.png';
+import test from './images/test.png';
+import headerForImage from './images/headerForImage.png';
 
 export const TokenomicsDaigram = () => {
   const [open4, setOpen4] = useState(true);
@@ -14,6 +17,15 @@ export const TokenomicsDaigram = () => {
   return (
     <>
       <div className='tokenomicsGridContainer'>
+        <div className='head'>
+          <img
+            src={headerForImage}
+            alt='bottom'
+            width='100%'
+            height='auto'
+            style={{ objectFit: 'contain' }}
+          />
+        </div>
         {open4 ? (
           <motion.div
             onClick={() => setOpen4(false)}
@@ -205,11 +217,11 @@ export const TokenomicsDaigram = () => {
             </div>
           </motion.div>
         )}
-        <div className='box7'></div>
         <div className='box8'>
           <FlameDaigram />
         </div>
         <div className='arrowBox1'>
+          <span className='top'>15%</span>
           <img
             src={rightUp}
             alt='top'
@@ -217,8 +229,10 @@ export const TokenomicsDaigram = () => {
             height='100%'
             style={{ objectFit: 'contain' }}
           />
+          <span className='bottom'>50%</span>
         </div>
         <div className='arrowBox2'>
+          <span className='top'>15%</span>
           <img
             src={leftBelow}
             alt='bottom'
@@ -226,16 +240,33 @@ export const TokenomicsDaigram = () => {
             height='100%'
             style={{ objectFit: 'contain' }}
           />
+          <span className='bottom'>50%</span>
         </div>
         <div className='arrowBox3'>
-          {/* <img
-            src={rightUpCorrect}
-            alt='bottom'
-            width='70%'
-            height='auto'
-            style={{ objectFit: 'contain' }}
-          /> */}
+          <div className='boxToCenterImage'>
+            <span>50%</span>
+            <img
+              src={rightUpCorrect}
+              alt='bottom'
+              width='50%'
+              height='auto'
+              style={{ objectFit: 'contain' }}
+            />
+          </div>
         </div>
+        <div className='arrowBox4'>
+          <div className='boxToCenterImage'>
+            <span>50%</span>
+            <img
+              src={rightUpCorrect}
+              alt='bottom'
+              width='50%'
+              height='auto'
+              style={{ objectFit: 'contain' }}
+            />
+          </div>
+        </div>
+        <div className='arrowBox5'></div>
         <div className='box9'>STAKER</div>
       </div>
     </>
