@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import leftBelow from './images/leftBelow.png';
 import rightUp from './images/rightUp.png';
 import rightUpCorrect from './images/rightUpCorrect.png';
-import test from './images/test.png';
 import headerForImage from './images/headerForImage.png';
 
 export const TokenomicsDaigram = () => {
@@ -249,7 +248,7 @@ export const TokenomicsDaigram = () => {
               src={rightUpCorrect}
               alt='bottom'
               width='50%'
-              height='auto'
+              height='100%'
               style={{ objectFit: 'contain' }}
             />
           </div>
@@ -260,7 +259,7 @@ export const TokenomicsDaigram = () => {
             <img
               src={rightUpCorrect}
               alt='bottom'
-              width='50%'
+              width='40%'
               height='auto'
               style={{ objectFit: 'contain' }}
             />

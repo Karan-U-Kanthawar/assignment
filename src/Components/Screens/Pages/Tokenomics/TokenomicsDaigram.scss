@@ -6,11 +6,11 @@
   grid-template-areas:
     'head  head      head       head      .'
     'box1  arrowBox1 arrowBox3  arrowBox3 box8'
-    'box2  arrowBox1 box6       .         arrowBox5'
-    'box3  arrowBox2 box6       .         arrowBox5'
+    'box2  arrowBox1 box6       box6      arrowBox5'
+    'box3  arrowBox2 box6       box6         arrowBox5'
     'box4  arrowBox2 arrowBox4  arrowBox4 box9';
   // row-gap: 1rem;
-  gap: 0.5rem;
+  gap: 0.25rem;
 
   .head {
     display: flex;
@@ -114,13 +114,13 @@
       }
       span {
         position: absolute;
-        left: 30%;
+        left: 35%;
         top: 30%;
       }
       @media (max-width: 520px) {
         span {
           font-size: 2vw;
-          left: 20%;
+          left: 25%;
         }
       }
       @media (max-width: 320px) {
@@ -154,7 +154,6 @@
     grid-area: box5;
   }
   .box6 {
-    height: 78%;
     height: 100%;
 
     grid-area: box6;
@@ -233,5 +232,4 @@
   cursor: pointer;
   width: 92%;
   border-radius: 10px;
-  height: 95%;
 }
